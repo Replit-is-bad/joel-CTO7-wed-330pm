@@ -60,3 +60,4 @@ while True :
         break
     else:
         topping = topping +top +","
+print('')

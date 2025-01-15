@@ -37,5 +37,5 @@ while True:
         break
     else:
         print("no")
-        life-
+        life -= 1
 

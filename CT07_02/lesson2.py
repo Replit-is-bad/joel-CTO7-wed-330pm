@@ -25,11 +25,12 @@ import random
 #     print(count)
 #     count+=1
 
-# validation/question\
+# validation/question
+life= 10
 for i in range(10):
     num1=random.randint(1,10)
     num2=random.randint(1,10)
-    life= 10
+
     while True:
         ans =int(input(f"what is {num1} + {num2}?"))
 

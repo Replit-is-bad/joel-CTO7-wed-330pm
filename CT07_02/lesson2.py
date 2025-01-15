@@ -5,6 +5,7 @@ print("Hello from lesson 2")
 # while count <= 24:
 #     print(count)
 #     count = count + 1
+
 # count = 1
 # while count <= 30:
 #     print(count)
@@ -16,3 +17,6 @@ print("Hello from lesson 2")
 #     count = count + 1
 #     #count += 1
 
+while True:
+    if count==20:
+        

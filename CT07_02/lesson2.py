@@ -51,7 +51,7 @@ import random
         
         
 topping=''
-
+cost=15.50
 print('welcome to tuh azzip ')
 while True :
     top = input("What toppings do you want?type 'end' to stop: ")

@@ -62,4 +62,4 @@ while True :
     else:
         topping = topping +top +" ,"
         cost += 3.50
-print(f"your topings are:" + topping)
+print(f"your topings are: {topping}")

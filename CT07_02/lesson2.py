@@ -26,4 +26,8 @@ print("Hello from lesson 2")
 
 # validation/question
 while True:
-    ans =input("what is 1 + 1")
+    ans =input("what is 1 + 1?")
+
+    if ans == "2":
+        print
+

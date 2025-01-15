@@ -36,9 +36,10 @@ while True:
         print("yes")
         break
     else:
+        print(f"no...now your life is {life}")
         if life == 0:
             print("YOU DIED")
             break
         life -= 1
-        print(f"no...now your life is {life}")
+        
         

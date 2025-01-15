@@ -25,7 +25,8 @@ import random
 #     print(count)
 #     count+=1
 
-# validation/question
+# validation/question\
+num1=random
 while True:
     ans =input("what is")
 

@@ -29,7 +29,7 @@ import random
 num1=random.randint()
 num2=random.randint()
 while True:
-    ans =input(f"what is{num1} + {num2}?")
+    ans =int(input(f"what is{num1} + {num2}?"))
 
     if ans == num1+num2:
         print("yes")

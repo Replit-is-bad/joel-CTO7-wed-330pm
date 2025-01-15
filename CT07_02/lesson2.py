@@ -26,8 +26,8 @@ import random
 #     count+=1
 
 # validation/question\
-num1=random.randint(1,1000)
-num2=random.randint(1,1000)
+num1=random.randint(1,10)
+num2=random.randint(1,10)
 life= 9
 while True:
     ans =int(input(f"what is {num1} + {num2}?"))

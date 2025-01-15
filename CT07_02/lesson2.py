@@ -30,4 +30,6 @@ while True:
 
     if ans == "2":
         print("yes")
+    else:
+        print("no")
 

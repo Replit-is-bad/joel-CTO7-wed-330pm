@@ -54,4 +54,4 @@ topping=''
 
 print('welcome to hizza put')
 while True :
-    top = input("What toppings do you")
+    top = input("What toppings do you want?")

@@ -31,7 +31,7 @@ for i in range(10):
     num1=random.randint(1,10)
     num2=random.randint(1,10)
 
-    while life >= -1:
+    while life >= 0:
         ans =int(input(f"what is {num1} + {num2}?"))
 
         if ans == num1+num2:

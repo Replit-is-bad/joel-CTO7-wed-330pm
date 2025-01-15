@@ -57,3 +57,6 @@ while True :
     top = input("What toppings do you want?type 'end' to stop: ")
     if top == 'end':
         print("Thank you.")
+        break
+    else:
+        toppings

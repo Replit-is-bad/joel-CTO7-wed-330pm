@@ -25,7 +25,10 @@ import random
 #     print(count)
 #     count+=1
 
+
 # validation/question
+
+
 
 # life= 10
 # for i in range(10):

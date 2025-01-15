@@ -88,15 +88,32 @@ Bonus:
 3. Disqualify user when they have tried too many times
 '''
 
-while True:
-    ans=input("what is taco cat backwards? ")
-    while ans !="taco cat":
+# while True:
 
-        if ans !="taco cat":
-            print("you got it wrong!")
+#     ans=input("what is taco cat backwards? ")
+
+#     if ans !="taco cat":
+#         print("you got it wrong!")
+
+#     else:
+#         print("you got it correct!")
+#         break
+
+
+
+## General Knowledge (hard mode)
+questions = ["Are you dumb", "What is 1 + 1", "What is the color of the sky"]
+answers = ["yes", "10", "cyan"]
+
+for idx in range(len(questions)):
+
+    while True:
+        ans = input(questions[idx] + "? ")
+
+        if ans == answers[idx]:
+            print("Correct!")
+            break
         else:
-             print("you got it correct!")
-             break
-        
+            print("Wrong! ")
 
 

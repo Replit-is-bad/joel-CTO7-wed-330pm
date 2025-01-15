@@ -31,7 +31,7 @@ num2=random.randint()
 while True:
     ans =input(f"what is{num1} + {num2}?")
 
-    if ans == "2":
+    if ans == num1:
         print("yes")
         break
     else:

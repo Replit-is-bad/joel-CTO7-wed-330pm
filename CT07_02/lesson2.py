@@ -94,6 +94,7 @@ while True:
     if ans !="taco cat":
         print("you got it wrong!")
     else:
-        print(yo)
+        print("you got it correct!")
+        break
 
 

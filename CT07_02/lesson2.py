@@ -53,17 +53,20 @@ import random
 
 
 # pizza hut
-topping=''
-cost=15.50
-print('welcome to tuh azzip ')
-while True :
-    top = input("What toppings do you want?type 'end' to stop: ")
+# topping=''
+# cost=15.50
+# print('welcome to tuh azzip ')
+# while True :
+#     top = input("What toppings do you want?type 'end' to stop: ")
     
-    if top == 'end':
-        print("Thank you")
-        break
-    else:
-        topping = topping +top +" ,"
-        cost += 3.50
-print(f"your topings are: {topping}")
-print(f"the cost of your azzip is :{cost}")
+#     if top == 'end':
+#         print("Thank you")
+#         break
+#     else:
+#         topping = topping +top +" ,"
+#         cost += 3.50
+# print(f"your topings are: {topping}")
+# print(f"the cost of your azzip is :{cost}")
+
+
+

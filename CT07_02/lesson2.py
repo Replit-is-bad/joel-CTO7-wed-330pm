@@ -52,7 +52,7 @@ import random
         
 topping=''
 
-print('welcome to a')
+print('welcome to  azzip ')
 while True :
     top = input("What toppings do you want?type 'end' to stop: ")
     if top == 'end':

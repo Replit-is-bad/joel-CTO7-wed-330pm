@@ -61,5 +61,5 @@ while True :
         break
     else:
         topping = topping +top +" ,"
-        
+        cost += 
 print("your topings are:" + topping)

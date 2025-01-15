@@ -43,5 +43,7 @@ for i in range(10):
                 print("YOU DIED")
                 break
             life -= 1
+    else:
+        continue
         
         

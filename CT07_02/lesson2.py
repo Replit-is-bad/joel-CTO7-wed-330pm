@@ -52,4 +52,4 @@ import random
 #         continue
         
         
-topping=input()
+topping=input("")

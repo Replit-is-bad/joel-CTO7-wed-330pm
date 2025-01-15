@@ -59,5 +59,5 @@ while True :
         print("Thank you.")
         break
     else:
-        topping = topping +top +","
-print("your topings are:")
+        topping = topping +top +" ,"
+print("your topings are:" + topping)

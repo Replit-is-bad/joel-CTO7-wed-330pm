@@ -59,4 +59,4 @@ while True :
         print("Thank you.")
         break
     else:
-        topping = topping +top +"<"
+        topping = topping +top +","

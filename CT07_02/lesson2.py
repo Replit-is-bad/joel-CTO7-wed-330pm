@@ -27,7 +27,6 @@ import random
 
 
 
-
 # validation/question
 # life= 10
 # for i in range(10):

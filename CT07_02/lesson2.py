@@ -26,20 +26,21 @@ import random
 #     count+=1
 
 # validation/question\
-num1=random.randint(1,10)
-num2=random.randint(1,10)
-life= 10
-while True:
-    ans =int(input(f"what is {num1} + {num2}?"))
+for i in range(10):
+    num1=random.randint(1,10)
+    num2=random.randint(1,10)
+    life= 10
+    while True:
+        ans =int(input(f"what is {num1} + {num2}?"))
 
-    if ans == num1+num2:
-        print("yes")
-        break
-    else:
-        print(f"no...now your life is {life}")
-        if life == 0:
-            print("YOU DIED")
+        if ans == num1+num2:
+            print("yes")
             break
-        life -= 1
+        else:
+            print(f"no...now your life is {life}")
+            if life == 0:
+                print("YOU DIED")
+                break
+            life -= 1
         
         

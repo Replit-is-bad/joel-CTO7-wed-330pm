@@ -23,4 +23,5 @@ while True:
         break
     print(count)
     count+=1
-#validation/
+
+# validation/question

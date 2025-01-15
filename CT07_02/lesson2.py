@@ -39,4 +39,4 @@ while True:
     
         life -= 1
         print(f"no...now your life is {life}")
-
+        

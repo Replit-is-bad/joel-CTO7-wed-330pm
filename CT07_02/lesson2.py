@@ -89,12 +89,13 @@ Bonus:
 '''
 
 while True:
-    ans=input("what is taco cat backwards? ")
+    while ans !="taco cat":
+        ans=input("what is taco cat backwards? ")
 
-    if ans !="taco cat":
-        print("you got it wrong!")
-    else:
-        print("you got it correct!")
+        if ans !="taco cat":
+            print("you got it wrong!")
+        else:
+             print("you got it correct!")
         
 
 

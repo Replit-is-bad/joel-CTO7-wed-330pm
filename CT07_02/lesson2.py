@@ -56,4 +56,4 @@ print('welcome to hizza put')
 while True :
     top = input("What toppings do you want?type 'end' to stop: ")
     if top == 'end':
-        print("thank you")
+        print("Thank you.")

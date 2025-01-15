@@ -17,11 +17,6 @@ print("Hello from lesson 2")
 #     count = count + 1
 #     #count += 1
 
-count=0
-while True:
-    if count == 20:
-        break
-    print(count)
-    count+=1
+
 
 # validation/question

@@ -36,6 +36,6 @@ while True:
         print("yes")
         break
     else:
-        print("no")
+        print(f"no...")
         life -= 1
 

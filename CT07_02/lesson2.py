@@ -1,4 +1,6 @@
+import random
 print("Hello from lesson 2")
+
 
 
 # count = 2

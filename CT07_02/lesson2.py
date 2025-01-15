@@ -1,5 +1,4 @@
 import random
-print("Hello from lesson 2")
 
 
 

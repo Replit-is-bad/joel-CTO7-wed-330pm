@@ -88,6 +88,6 @@ Bonus:
 3. Disqualify user when they have tried too many times
 '''
 while True:
-    ans
+    ans=input()
 
 

@@ -27,7 +27,7 @@ import random
 
 # validation/question
 while True:
-    ans =input("what is 1 + 1?")
+    ans =input("what is")
 
     if ans == "2":
         print("yes")

@@ -36,7 +36,8 @@ while True:
         print("yes")
         break
     else:
-    
+        if life == 0:
+            print('')
         life -= 1
         print(f"no...now your life is {life}")
         

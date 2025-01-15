@@ -63,4 +63,4 @@ while True :
         topping = topping +top +" ,"
         cost += 3.50
 print(f"your topings are: {topping}")
-print(f"the cost of your ")
+print(f"the cost of your azzip is {cost}")

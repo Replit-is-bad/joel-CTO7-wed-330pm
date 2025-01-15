@@ -26,7 +26,7 @@ import random
 #     count+=1
 
 # validation/question\
-num1=random.ranint
+num1=random.randint()
 while True:
     ans =input("what is")
 

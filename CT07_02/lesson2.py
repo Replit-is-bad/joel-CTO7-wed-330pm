@@ -16,8 +16,7 @@ print("Hello from lesson 2")
 #     print(count)
 #     count = count + 1
 #     #count += 1
-count
-
+count=0
 while True:
     if count==20:
         break

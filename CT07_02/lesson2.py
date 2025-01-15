@@ -38,5 +38,5 @@ while True:
     else:
     
         life -= 1
-        print(str(f"no...now your life is {life}"))
+        print(f"no...now your life is {life}")
 

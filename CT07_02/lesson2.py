@@ -26,10 +26,9 @@ import random
 #     count+=1
 
 
+
+
 # validation/question
-
-
-
 # life= 10
 # for i in range(10):
 #     num1=random.randint(1,10)

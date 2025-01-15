@@ -96,6 +96,7 @@ while True:
             print("you got it wrong!")
         else:
              print("you got it correct!")
+             break
         
 
 

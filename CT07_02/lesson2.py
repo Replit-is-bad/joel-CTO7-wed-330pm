@@ -20,4 +20,4 @@ print("Hello from lesson 2")
 while True:
     if count==20:
         break
-    print
+    print(cout)

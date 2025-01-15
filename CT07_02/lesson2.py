@@ -60,4 +60,4 @@ while True :
         break
     else:
         topping = topping +top +","
-print("your topings are")
+print("your topings are:")

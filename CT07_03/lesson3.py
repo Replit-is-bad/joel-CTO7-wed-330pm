@@ -10,4 +10,4 @@ import time
 #     else:
 #         print('hahahahhaha')
 
-duration = int(input('how long(im) do you want to study for? '))
+duration = int(input('how long(in min) do you want to study for? '))*60

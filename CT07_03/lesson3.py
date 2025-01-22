@@ -10,7 +10,7 @@ import time
 #     else:
 #         print('hahahahhaha')
 
-duration = int(input('how long(in min) do you want to study for? '))*60
+duration = int(input('how long(in min) do you want to study for? '))
 for i in range (duration,0,-60):
     print(f'you have {i} seconds remaining')
     time.sleep(60)

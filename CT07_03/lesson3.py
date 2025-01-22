@@ -23,7 +23,7 @@ elif mode =='down':
         time.sleep(1)
         counter += 1
 elif mode == 'yearly':
-    print
+    print('warning!')
 
 else:
     print('try again')

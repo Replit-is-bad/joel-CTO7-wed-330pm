@@ -22,6 +22,7 @@ elif mode =='down':
         print(str(f'{counter} seconds past'))
         time.sleep(1)
         counter += 1
+
 else:
     print('try again')
     

@@ -10,4 +10,4 @@ import time
 #     else:
 #         print('hahahahhaha')
 
-duration = int(input('how long do you want '))
+duration = int(input('how long do you want your '))

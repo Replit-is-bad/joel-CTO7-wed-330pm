@@ -12,7 +12,7 @@ import time
 
 duration = int(input('how long(in min) do you want to study for? '))
 mode=input('would you like to count down or up?')
-print('do you want ')
+print('do you want to count ')
 if mode =='up':
     for i in range (duration,0,-1):
         print(f'you have {i} seconds remaining')

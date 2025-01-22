@@ -1,3 +1,4 @@
+import time
 # print("Hello from lesson 3")
 
 # while True:

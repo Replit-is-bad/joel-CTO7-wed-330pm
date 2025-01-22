@@ -11,7 +11,7 @@ import time
 #         print('hahahahhaha')
 
 duration = int(input('how long(in min) do you want to study for? '))
-mode=input('would you like to cou')
+mode=input('would you like to count down or up?')
 for i in range (duration,0,-1):
     print(f'you have {i} seconds remaining')
     time.sleep(60)

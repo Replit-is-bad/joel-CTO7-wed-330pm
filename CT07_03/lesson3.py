@@ -10,4 +10,4 @@ import time
 #     else:
 #         print('hahahahhaha')
 
-duration = int
+duration = int(imp)

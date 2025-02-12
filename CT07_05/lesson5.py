@@ -22,3 +22,7 @@ import random
 
 # for i in numm:
 #     print(i)
+
+stats =[
+    
+]

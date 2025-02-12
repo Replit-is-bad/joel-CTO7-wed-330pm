@@ -6,6 +6,7 @@ food =[
     'candy'
 ]
 food.pop(3)
-food.append('')
+food.append('more candy')
+
 
 

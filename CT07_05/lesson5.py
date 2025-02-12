@@ -67,9 +67,9 @@ print(str(pow2) + ' : '+ poki2)
 muchp = len(pokemons)
 muchpow =len(powers)
 
-while not muchp > muchpow:
-    if pow > pow2:
-        print(poki1 + " wins!!")
-    else:
+
+if pow > pow2:
+    print(poki1 + " wins!!")
+else:
         print(poki2 + " wins!!")
     

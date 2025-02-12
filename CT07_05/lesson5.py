@@ -54,4 +54,4 @@ powers = [
     85, 65, 134, 130, 110,
     50, 125, 65, 110, 83
 ]
-random.choice(pokemons)
+poki1=random.choice(pokemons)

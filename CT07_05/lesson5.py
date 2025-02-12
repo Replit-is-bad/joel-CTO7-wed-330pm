@@ -57,4 +57,4 @@ powers = [
 poki1=random.choice(pokemons)
 inhis=pokemons.index(poki1)
 pow=powers.pop(inhis)
-print(str() + guyh)
+print(str(pow) + poki1)

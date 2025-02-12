@@ -1,4 +1,4 @@
-
+import random
 # food =[
 #     'ham',
 #     'burg',
@@ -11,4 +11,4 @@
 # for i in food:
 #     print(i)
 
-
+num

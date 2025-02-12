@@ -26,6 +26,6 @@ for i in numm:
 maxi=max(numm)
 minn=min(numm)
 print('the max is : '+ maxi)
-print( minn)
+print('the min is : '+ minn)
 
 

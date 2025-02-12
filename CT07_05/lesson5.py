@@ -24,5 +24,5 @@ for i in numm:
     print(i)
 
 maxi=max(numm)
-minn=min()
+minn=min(numm)
 

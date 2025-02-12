@@ -20,7 +20,7 @@ import time
 # # planets.append ('Pluto')
 # planets.insert(3, "lalaland")
 
-
+#del(planet)
 
 # remove=planets.pop(5)
 

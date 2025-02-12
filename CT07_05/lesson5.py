@@ -14,7 +14,7 @@ import random
 numm =[
 
 ]
-while numm <= 100:
+while len(numm) <= 100:
     num2=(int(random.randint(1,1000)))
     if len(numm) != numm:
         numm.append(num2)

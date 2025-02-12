@@ -6,7 +6,7 @@ import time
 #     counter -= 1
 # print('happy new year')
 
-# planets = [
+ #planets = [
 #     "Mercury",
 #     "Venus",
 #     "Earth",
@@ -20,7 +20,7 @@ import time
 # # planets.append ('Pluto')
 # planets.insert(3, "lalaland")
 
-del(planets[4])
+#del(planets[4])
 
 # remove=planets.pop(5)
 

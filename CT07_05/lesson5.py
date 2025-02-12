@@ -64,8 +64,7 @@ inhis2=pokemons.index(poki2)
 pow2=powers.pop(inhis2)
 print(str(pow2) + ' : '+ poki2)
 
-muchp = len(pokemons)
-muchpow =len(powers)
+
 
 
 if pow > pow2:

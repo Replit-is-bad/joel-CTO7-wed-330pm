@@ -23,3 +23,5 @@ while len(numm) <= 100:
 for i in numm:
     print(i)
 
+pri
+

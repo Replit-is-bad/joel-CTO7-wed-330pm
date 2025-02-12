@@ -31,8 +31,8 @@ import random
 
 
 namelist = ["Olivia", "Liam", "Emma", "Noah", "Ava", "Ethan",
-            "Sophia", "Lucas", "Mia", "Aiden"
-            ]
+  "Sophia", "Lucas", "Mia", "Aiden"
+ ]
 heightlist = [160, 165, 158, 170, 162, 168, 159, 172, 164, 166]
 
 

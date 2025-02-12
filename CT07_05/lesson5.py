@@ -5,6 +5,6 @@ food =[
     'bread',
     'candy'
 ]
-
+food.pop(3)
 
 

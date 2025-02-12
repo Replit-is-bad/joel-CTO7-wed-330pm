@@ -7,6 +7,7 @@ food =[
 ]
 food.pop(3)
 food.append('more candy')
-
+for i in food:
+    print(i)
 
 

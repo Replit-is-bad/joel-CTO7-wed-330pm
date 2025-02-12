@@ -25,7 +25,7 @@ for i in numm:
 
 maxi=max(numm)
 minn=min(numm)
-print(str('the max is : '+maxi))
-print(str('the min is : '+minn))
+print(str('the max is : '+ maxi))
+print(str('the min is : '+ minn))
 
 

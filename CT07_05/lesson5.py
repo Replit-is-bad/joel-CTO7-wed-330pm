@@ -56,4 +56,4 @@ powers = [
 ]
 poki1=random.choice(pokemons)
 inhis=pokemons.index(poki1)
-
+pow=powers

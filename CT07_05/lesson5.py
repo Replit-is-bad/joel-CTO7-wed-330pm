@@ -38,5 +38,5 @@ heightlist = [160, 165, 158, 170, 162, 168, 159, 172, 164, 166]
 hig=max(heightlist)
 inthe=heightlist.index(hig)
 guyh=namelist.pop(inthe)
-print()
+print(hig + guyh)
 

@@ -56,7 +56,7 @@ powers = [
 ]
 poki1=random.choice(pokemons)
 inhis=pokemons.index(poki1)
-pow=powers[pokemons.i]
+pow=powers[pokemons.index]
 print(str(pow) + ' : '+ poki1)
 
 poki2=random.choice(pokemons)

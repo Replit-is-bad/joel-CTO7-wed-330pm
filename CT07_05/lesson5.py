@@ -16,7 +16,7 @@ numm =[
 ]
 while len(numm) <= 100:
     num2=(int(random.randint(1,1000)))
-    if len(numm) != numm:
+    while :
         numm.append(num2)
 for i in numm:
     print(i)

@@ -12,5 +12,6 @@ import random
 #     print(i)
 
 numm =[
-    
+
 ]
+fo

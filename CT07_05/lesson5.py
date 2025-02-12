@@ -15,4 +15,4 @@ numm =[
 
 ]
 for i in range(100):
-    random.ran
+    random.randint(1,100)

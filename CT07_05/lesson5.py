@@ -71,4 +71,6 @@ if pow2 != pow:
         print(poki1 + " wins!!")
     else:
         print(poki2 + " wins!!")
+else:
+    
     

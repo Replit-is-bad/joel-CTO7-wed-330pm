@@ -15,4 +15,4 @@ numm =[
 
 ]
 for i in range(100):
-    random.randint(1,1000)
+    numm.append(random.randint(1,1000)

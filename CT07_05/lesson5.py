@@ -66,9 +66,9 @@ print(str(pow2) + ' : '+ poki2)
 
 
 
-
-if pow > pow2:
-    print(poki1 + " wins!!")
-else:
-    print(poki2 + " wins!!")
+if pow2 != pow:
+    if pow > pow2:
+        print(poki1 + " wins!!")
+    else:
+        print(poki2 + " wins!!")
     

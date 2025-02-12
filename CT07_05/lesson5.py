@@ -58,3 +58,9 @@ poki1=random.choice(pokemons)
 inhis=pokemons.index(poki1)
 pow=powers.pop(inhis)
 print(str(pow) + ' : '+ poki1)
+
+poki2=random.choice(pokemons)
+inhis=pokemons.index(poki1)
+pow=powers.pop(inhis)
+print(str(pow) + ' : '+ poki1)
+

@@ -27,3 +27,4 @@ maxi=max(numm)
 minn=min(numm)
 
 
+

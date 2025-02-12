@@ -55,3 +55,4 @@ powers = [
     50, 125, 65, 110, 83
 ]
 poki1=random.choice(pokemons)
+

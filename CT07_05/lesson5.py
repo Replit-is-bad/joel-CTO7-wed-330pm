@@ -11,4 +11,6 @@ import random
 # for i in food:
 #     print(i)
 
-num
+numm =[
+    
+]

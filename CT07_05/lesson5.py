@@ -19,5 +19,6 @@ while len(numm) <= 100:
     while num2 in numm:
         num2=(int(random.randint(1,1000)))
     numm.append(num2)
+    
 for i in numm:
     print(i)

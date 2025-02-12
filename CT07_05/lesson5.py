@@ -64,8 +64,12 @@ inhis2=pokemons.index(poki2)
 pow2=powers.pop(inhis2)
 print(str(pow2) + ' : '+ poki2)
 
-if pow > pow2:
-    print(poki1 + " wins!!")
-else:
-    print(poki2 + " wins!!")
+muchp = len(pokemons)
+muchpow =len(powers)
+
+while muchp > muchpow:
+    if pow > pow2:
+        print(poki1 + " wins!!")
+    else:
+        print(poki2 + " wins!!")
     

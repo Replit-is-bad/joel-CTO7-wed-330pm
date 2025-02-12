@@ -26,3 +26,4 @@ for i in numm:
 maxi=max(numm)
 minn=min(numm)
 
+

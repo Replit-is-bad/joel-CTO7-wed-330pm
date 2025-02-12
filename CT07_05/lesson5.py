@@ -17,4 +17,4 @@ numm =[
 for i in range(100):
     numm.append(int(random.randint(1,1000)))
 for i in numm:
-    print()
+    print(i)

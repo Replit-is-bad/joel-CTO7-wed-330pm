@@ -1,6 +1,7 @@
 food =[
     'ham',
-    ''
+    'burg',
+    'er''
 ]
 
 

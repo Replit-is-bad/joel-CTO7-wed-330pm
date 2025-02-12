@@ -72,5 +72,5 @@ if pow2 != pow:
     else:
         print(poki2 + " wins!!")
 else:
-    
+    print('tie')
     

@@ -14,4 +14,5 @@ import random
 numm =[
 
 ]
-fo
+for i in range(100):
+    random.ran

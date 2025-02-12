@@ -71,5 +71,5 @@ muchpow =len(powers)
 if pow > pow2:
     print(poki1 + " wins!!")
 else:
-        print(poki2 + " wins!!")
+    print(poki2 + " wins!!")
     

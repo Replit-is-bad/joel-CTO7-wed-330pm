@@ -62,5 +62,7 @@ print(str(pow) + ' : '+ poki1)
 poki2=random.choice(pokemons)
 inhis2=pokemons.index(poki2)
 pow2=powers.pop(inhis2)
-print(str(pow2) + ' : '+ poki1)
+print(str(pow2) + ' : '+ poki2)
 
+if pow > pow2:
+    

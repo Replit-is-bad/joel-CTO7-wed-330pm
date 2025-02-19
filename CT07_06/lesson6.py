@@ -5,9 +5,9 @@ list101=[]
 name=input('What is your name? ')
 gender=input('what is your gender')
 for counter in range(100):
-    num=random.randint(1,100)
+    num=random.randint(1,9999)
     while num in list101:
-        num=random.randint(1,100)
+        num=random.randint(1,9999)
     list101.append(num)
 
 # for i in list101:

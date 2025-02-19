@@ -17,8 +17,8 @@ while name != 'end':
         print('your number is : '+' 0'+str(num))
 
     
-
-    list101.append(name,gender,num = dude)
+    name,gender,num = dude
+    list101.append(dude)
 
 
 

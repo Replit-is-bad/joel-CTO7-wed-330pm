@@ -37,4 +37,5 @@ students = [
     ["Amelia", "F"], ["Logan", "M"], ["Lily", "F"]
 ]
 for student in students:
-    name,
+    name,gender=students
+    

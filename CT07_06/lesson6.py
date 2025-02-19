@@ -28,7 +28,7 @@ while name != 'end':
 print(list101)
 print('the winner is : ')
 time.sleep(2)
-
+name,gender
 
 
 

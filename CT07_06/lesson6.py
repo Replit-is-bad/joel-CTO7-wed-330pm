@@ -36,8 +36,8 @@ students = [
     ["Aiden", "M"], ["Isabella", "F"], ["Jackson", "M"],
     ["Amelia", "F"], ["Logan", "M"], ["Lily", "F"]
 ]
+
 for student in students:
     name,gender,*sup= student
     print(name +':'+gender)
 
-    

@@ -17,14 +17,14 @@ import random
 # nass = random.choice(list101)
 # rnass= list101.index(nass)
 # print('the index is : ' + str(rnass))
-contacts = []
-contact1 = ["John", 98453126, "john@gmail.com"]
-contact2 = ["Adam", 93029102, "adam@gmail.com"]
-contact3 = ["Sylvia", 87894032, "sylvia@gmail.com"]
+# contacts = []
+# contact1 = ["John", 98453126, "john@gmail.com"]
+# contact2 = ["Adam", 93029102, "adam@gmail.com"]
+# contact3 = ["Sylvia", 87894032, "sylvia@gmail.com"]
 
-contacts.append(contact1)
-contacts.append(contact2)
-contacts.append(contact3)
-for thing in contacts:
-    for item in thing:
-        print(item)
+# contacts.append(contact1)
+# contacts.append(contact2)
+# contacts.append(contact3)
+# for thing in contacts:
+#     for item in thing:
+#         print(item)

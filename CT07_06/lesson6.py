@@ -1,7 +1,7 @@
 import random
 import time
 list101=[]
-name=input('What is your name? ')
+name=('What is your name? ')
 gender=input('what is your gender? ')
 
 

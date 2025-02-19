@@ -1,19 +1,28 @@
 import random
-list101=[
+# list101=[
 
-]
-for counter in range(100):
-    num=random.randint(1,100)
-    while num in list101:
-        num=random.randint(1,100)
-    list101.append(num)
+# ]
+# for counter in range(100):
+#     num=random.randint(1,100)
+#     while num in list101:
+#         num=random.randint(1,100)
+#     list101.append(num)
 
-for i in list101:
-    print(i)
+# for i in list101:
+#     print(i)
     
-print('the highest num is : ' + str(max(list101)))
-print('the smallest num is : ' + str(min(list101)))
-print('the the average is : ' + str(sum(list101) / len(list101)))
-nass = random.choice(list101)
-rnass= list101.index(nass)
-print('the index is : ' + str(rnass))
+# print('the highest num is : ' + str(max(list101)))
+# print('the smallest num is : ' + str(min(list101)))
+# print('the the average is : ' + str(sum(list101) / len(list101)))
+# nass = random.choice(list101)
+# rnass= list101.index(nass)
+# print('the index is : ' + str(rnass))
+contacts = []
+contact1 = ["John", 98453126, "john@gmail.com"]
+contact2 = ["Adam", 93029102, "adam@gmail.com"]
+contact3 = ["Sylvia", 87894032, "sylvia@gmail.com"]
+
+ape
+
+# for shelf in bookshelf:
+#     for item in shelf:

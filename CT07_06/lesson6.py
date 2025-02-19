@@ -1,5 +1,4 @@
-print("Hello from lesson 6")
-
+import
 list101=[
 
 ]

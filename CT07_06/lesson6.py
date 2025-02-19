@@ -6,6 +6,10 @@ name=input('What is your name? ')
 gender=input('what is your gender? ')
 
 num=random.randint(1,9999)
+while num in list101:
+    num=random.randint(1,9999)
+if num <= 9:
+    print
 print('your number is : '+ str(num))
 while num in list101:
     num=random.randint(1,9999)

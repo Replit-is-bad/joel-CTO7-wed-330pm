@@ -30,24 +30,24 @@ import time
 #     for item in thing:
 #         print(item)
 
-students = [
-    ["Olivia", "F"], ["Noah", "M"], ["Emma", "F"],
-    ["Liam", "M"], ["Ava", "F"], ["Ethan", "M"],
-    ["Sophia", "F"], ["Lucas", "M"], ["Mia", "F"],
-    ["Aiden", "M"], ["Isabella", "F"], ["Jackson", "M"],
-    ["Amelia", "F"], ["Logan", "M"], ["Lily", "F"]
-]
-boy=[]
-girl=[]
-for student in students:
-    name,gender,*sup= student
-    if gender =='M':
-        boy.append(student)
-    else:
-        girl.append(student)
-for i in boy:
-    print(i)
-for i in girl:
-    print(i)
-print('the total is: ' + str(len(students)))
+# students = [
+#     ["Olivia", "F"], ["Noah", "M"], ["Emma", "F"],
+#     ["Liam", "M"], ["Ava", "F"], ["Ethan", "M"],
+#     ["Sophia", "F"], ["Lucas", "M"], ["Mia", "F"],
+#     ["Aiden", "M"], ["Isabella", "F"], ["Jackson", "M"],
+#     ["Amelia", "F"], ["Logan", "M"], ["Lily", "F"]
+# ]
+# boy=[]
+# girl=[]
+# for student in students:
+#     name,gender,*sup= student
+#     if gender =='M':
+#         boy.append(student)
+#     else:
+#         girl.append(student)
+# for i in boy:
+#     print(i)
+# for i in girl:
+#     print(i)
+# print('the total is: ' + str(len(students)))
 

@@ -23,6 +23,7 @@ contact2 = ["Adam", 93029102, "adam@gmail.com"]
 contact3 = ["Sylvia", 87894032, "sylvia@gmail.com"]
 
 contacts.append(contact1)
-
+contacts.append(contact12)
+contacts.append(contact3)
 # for shelf in bookshelf:
 #     for item in shelf:

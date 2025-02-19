@@ -14,3 +14,4 @@ for i in list101:
 print('the highest num is : ' + str(max(list101)))
 print('the smallest num is : ' + str(min(list101)))
 print('the the average is : ' + str(sum(list101) / len(list101)))
+print('the highest num is : ' + str(max(list101)))

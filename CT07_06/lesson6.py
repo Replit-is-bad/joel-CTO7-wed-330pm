@@ -46,5 +46,7 @@ for student in students:
         girl.append(name,gender)
 for i in boy:
     print(i)
+for i in girl:
+    print i
 print(name +':'+gender)
 

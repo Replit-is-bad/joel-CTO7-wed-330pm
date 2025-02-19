@@ -43,7 +43,7 @@ for student in students:
     if gender =='M':
         boy.append(name,gender)
     else:
-        girl
+        girl.append(name)
 
 print(name +':'+gender)
 

@@ -12,5 +12,5 @@ for i in list101:
     print(i)
     
 print('the highest num is : ' + str(max(list101)))
-print('the highest num is : ' + str(min(list101)))
-print('the highest num is : ' + str(max(list101)))
+print('the smallest num is : ' + str(min(list101)))
+print('the  is : ' + str(max(list101)))

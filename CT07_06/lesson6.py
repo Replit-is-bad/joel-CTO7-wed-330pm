@@ -20,7 +20,7 @@ while name != 'end':
         print('your number is : '+' 0'+str(num))
 
     
-    dude= name,gender,num 
+    dude= [name,gender,num] 
     list101.append(dude)
 print('the winner is : ')
 time.sleep(2)

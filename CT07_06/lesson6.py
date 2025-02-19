@@ -1,11 +1,11 @@
 import random
 import time
 list101=[]
+while name != 'end':
+    name=input('What is your name? ')
+    gender=input('what is your gender? ')
 
-name=input('What is your name? ')
-gender=input('what is your gender? ')
-
-num=random.randint(1,9999)
+    num=random.randint(1,9999)
 while num in list101:
     num=random.randint(1,9999)
 

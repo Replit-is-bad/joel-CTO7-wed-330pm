@@ -3,4 +3,4 @@ list101=[
 
 ]
 for counter in range(100):
-    list101.append(random.randint())
+    list101.append(random.randint(1,100))

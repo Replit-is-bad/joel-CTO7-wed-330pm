@@ -9,7 +9,7 @@ num=random.randint(1,9999)
 while num in list101:
     num=random.randint(1,9999)
 if num <= 9:    
-    print('your number is : '+ str(num))
+    print('your number is : '+' '+str(num))
 while num in list101:
     num=random.randint(1,9999)
 list101.append(num)

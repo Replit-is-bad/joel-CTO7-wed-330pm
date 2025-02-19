@@ -2,7 +2,8 @@ import random
 import time
 list101=[]
 
-name=input('')
+name=input('What is your name? ')
+
 for counter in range(100):
     num=random.randint(1,100)
     while num in list101:

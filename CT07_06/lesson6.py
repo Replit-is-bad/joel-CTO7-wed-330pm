@@ -2,5 +2,5 @@ import random
 list101=[
 
 ]
-for counter in ():
-    print('hi')
+for counter in (100):
+    list101.append

@@ -13,3 +13,4 @@ for i in list101:
     
 print('the highest num is : ' + str(max(list101)))
 print('the highest num is : ' + str(min(list101)))
+print('the highest num is : ' + str(max(list101)))

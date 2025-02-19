@@ -41,7 +41,9 @@ girl=[]
 for student in students:
     name,gender,*sup= student
     if gender =='M':
-        boy.append(name)
+        boy.append(name,gender)
+    else:
+        girl
 
 print(name +':'+gender)
 

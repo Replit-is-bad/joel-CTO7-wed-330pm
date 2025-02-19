@@ -6,15 +6,15 @@ while name != 'end':
     gender=input('what is your gender? ')
 
     num=random.randint(1,9999)
-while num in list101:
-    num=random.randint(1,9999)
+    while num in list101:
+        num=random.randint(1,9999)
 
-if num <= 9:    
-    print('your number is : '+' 000'+str(num))
-elif num <= 99:
-    print('your number is : '+' 00'+str(num))
-elif num <= 999:
-    print('your number is : '+' 0'+str(num))
+    if num <= 9:    
+        print('your number is : '+' 000'+str(num))
+    elif num <= 99:
+        print('your number is : '+' 00'+str(num))
+    elif num <= 999:
+        print('your number is : '+' 0'+str(num))
 
 for dude in list101:
      name,gender,num= dude

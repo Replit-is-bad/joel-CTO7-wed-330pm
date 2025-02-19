@@ -36,9 +36,12 @@ students = [
     ["Aiden", "M"], ["Isabella", "F"], ["Jackson", "M"],
     ["Amelia", "F"], ["Logan", "M"], ["Lily", "F"]
 ]
-
+boy=[]
+girl=[]
 for student in students:
     name,gender,*sup= student
-    
+    if gender =='M':
+        boy.
+
 print(name +':'+gender)
 

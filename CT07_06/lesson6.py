@@ -3,7 +3,7 @@ import time
 list101=[]
 
 name=input('What is your name? ')
-gender=input('what is your gender')
+gender=input('what is your gender? ')
 
 num=random.randint(1,9999)
 print('your number is : '+ str(num))

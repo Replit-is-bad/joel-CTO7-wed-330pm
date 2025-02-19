@@ -19,7 +19,7 @@ while name != 'end':
     elif num <= 999:
         print('your number is : '+' 0'+str(num))
     else:
-        print('your number is :')
+        print('your number is : '+ str())
 
     
     dude= [name,gender,num] 

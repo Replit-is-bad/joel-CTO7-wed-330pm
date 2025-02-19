@@ -6,7 +6,7 @@ name=input('What is your name? ')
 gender=input('what is your gender')
 
 num=random.randint(1,9999)
-print('')
+print('your number is : '+ )
 while num in list101:
     num=random.randint(1,9999)
 list101.append(num)

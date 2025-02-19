@@ -11,4 +11,4 @@ for counter in range(100):
 for i in list101:
     print(i)
     
-print('the highest num is ')
+print('the highest num is : ' )

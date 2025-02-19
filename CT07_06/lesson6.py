@@ -1,8 +1,8 @@
 import random
 import time
 list101=[]
-name=('TEST')
-gender=input('TEST')
+name='TEST'
+gender='TEST'
 
 
 while name != 'end':

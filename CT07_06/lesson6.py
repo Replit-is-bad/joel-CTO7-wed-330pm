@@ -39,5 +39,6 @@ students = [
 
 for student in students:
     name,gender,*sup= student
-    print(name +':'+gender)
+    
+print(name +':'+gender)
 

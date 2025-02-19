@@ -16,10 +16,10 @@ while name != 'end':
     elif num <= 999:
         print('your number is : '+' 0'+str(num))
 
-for dude in list101:
-     name,gender,num= dude
+    for dude in list101:
+        name,gender,num= dude
 
-list101.append(dude)
+    list101.append(dude)
 
 
 # for i in list101:

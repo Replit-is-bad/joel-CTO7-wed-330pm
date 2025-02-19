@@ -18,7 +18,7 @@ while name != 'end':
 
     
 
-    list101.append()
+    list101.append(name,gender,num = dude)
 
 
 

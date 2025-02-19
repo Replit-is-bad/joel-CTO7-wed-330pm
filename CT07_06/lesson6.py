@@ -48,5 +48,5 @@ for i in boy:
     print(i)
 for i in girl:
     print(i)
-print('the total is: ' + len(students))
+print('the total is: ' + str(len(students)))
 

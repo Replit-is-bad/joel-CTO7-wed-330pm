@@ -38,4 +38,5 @@ students = [
 ]
 for student in students:
     name,gender,*sup= students
-print(name + gender)
+    # for i in students
+    print(name + gender)

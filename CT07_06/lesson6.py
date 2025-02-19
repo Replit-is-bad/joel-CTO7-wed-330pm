@@ -22,6 +22,7 @@ while name != 'end':
     
     dude= [name,gender,num] 
     list101.append(dude)
+
 print('the winner is : ')
 time.sleep(2)
 

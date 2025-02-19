@@ -47,6 +47,6 @@ for student in students:
 for i in boy:
     print(i)
 for i in girl:
-    print i
+    print(i)
 print(name +':'+gender)
 

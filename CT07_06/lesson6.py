@@ -28,3 +28,11 @@ import random
 # for thing in contacts:
 #     for item in thing:
 #         print(item)
+
+students = [
+    ["Olivia", "F"], ["Noah", "M"], ["Emma", "F"],
+    ["Liam", "M"], ["Ava", "F"], ["Ethan", "M"],
+    ["Sophia", "F"], ["Lucas", "M"], ["Mia", "F"],
+    ["Aiden", "M"], ["Isabella", "F"], ["Jackson", "M"],
+    ["Amelia", "F"], ["Logan", "M"], ["Lily", "F"]
+]

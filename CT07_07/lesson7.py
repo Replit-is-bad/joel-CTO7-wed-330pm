@@ -51,12 +51,15 @@
 
 
 
-list1 = [1, 2, 3, 4]
-list2 = [5, 6, 7, 8]
-even =[]
-student=list1+list2
-for dud in student:
-    if dud % 2 == 0:
-        even.append(dud)
+# list1 = [1, 2, 3, 4]
+# list2 = [5, 6, 7, 8]
+# even =[]
+# student=list1+list2
+# for dud in student:
+#     if dud % 2 == 0:
+#         even.append(dud)
 
-print(even)
+# print(even)
+
+students = [1, 2, 3, 4, 5, 6, 7, 8, 9]
+size = 3

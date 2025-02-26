@@ -1,34 +1,34 @@
-import random
-import time
-list101=[]
-name='TEST'
-gender='TEST'
+# import random
+# import time
+# list101=[]
+# name='TEST'
+# gender='TEST'
 
 
-while name != 'end':
-    name=input('What is your name? ')
-    gender=input('what is your gender? ')
+# while name != 'end':
+#     name=input('What is your name? ')
+#     gender=input('what is your gender? ')
 
-    num=random.randint(1,9999)
-    while num in list101:
-        num=random.randint(1,9999)
+#     num=random.randint(1,9999)
+#     while num in list101:
+#         num=random.randint(1,9999)
 
-    if num <= 9:    
-        print('your number is : '+' 000'+str(num))
-    elif num <= 99:
-        print('your number is : '+' 00'+str(num))
-    elif num <= 999:
-        print('your number is : '+' 0'+str(num))
-    else:
-        print('your number is : '+ str(num))
+#     if num <= 9:    
+#         print('your number is : '+' 000'+str(num))
+#     elif num <= 99:
+#         print('your number is : '+' 00'+str(num))
+#     elif num <= 999:
+#         print('your number is : '+' 0'+str(num))
+#     else:
+#         print('your number is : '+ str(num))
 
     
-    dude= [name,gender,num] 
-    list101.append(dude)
-print(list101)
-print('the winner is : ')
-time.sleep(2)
-name,gender
+#     dude= [name,gender,num] 
+#     list101.append(dude)
+# print(list101)
+# print('the winner is : ')
+# time.sleep(2)
+# name,gender
 
 
 

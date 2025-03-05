@@ -24,4 +24,4 @@ import random
 
 
 
-cust = input
+cust = input('')

@@ -1,7 +1,6 @@
 import random
 
 
-
 herohp = 100
 counter = 0
 

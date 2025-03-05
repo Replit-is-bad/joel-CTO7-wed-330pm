@@ -1,4 +1,4 @@
 strr = 'A,B,C,D,E,F'
-list = strr.spilt('')
+list = strr.spilt(',')
 
 print(list)

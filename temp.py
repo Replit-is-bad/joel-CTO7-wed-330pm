@@ -3,3 +3,6 @@ import random
 # list = strr.split(',')
 
 # print(list)
+
+
+herohp = 100

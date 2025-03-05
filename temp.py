@@ -1,8 +1,5 @@
 import random
-# strr = 'A,B,C,D,E,F'
-# list = strr.split(',')
 
-# print(list)
 
 
 herohp = 100
@@ -18,3 +15,10 @@ while herohp >= 0:
         print('After fighting monsters, his Health is now: ' + str(herohp))
         counter += 1
 print('Your hero died fighting ' + str(counter) + ' monsters')
+
+
+
+# strr = 'A,B,C,D,E,F'
+# list = strr.split(',')
+
+# print(list)

@@ -14,3 +14,4 @@ while herohp != 0:
     herohp -= dmg
     print('After fighting monsters, his Health is now: ' + str(herohp))
     counter += 1
+

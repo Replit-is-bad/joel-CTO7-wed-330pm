@@ -16,5 +16,5 @@ while herohp >= 0:
         break
     else:
         print('After fighting monsters, his Health is now: ' + str(herohp))
-    counter += 1
+        counter += 1
 print('Your hero died fighting ' + str(counter) + ' monsters')

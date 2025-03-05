@@ -9,8 +9,8 @@ herohp = 100
 counter = 0
 
 print('Hero starts on his adventure with Health: ' + str(herohp))
-while herohp != 0:
+while counter != 0:
     dmg = random.randint(1,15)
     herohp -= dmg
     print('After fighting monsters, his Health is now: ' + str(herohp))
-    hero
+    

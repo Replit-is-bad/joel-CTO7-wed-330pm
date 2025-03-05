@@ -10,4 +10,4 @@ counter = 0
 
 print('Hero starts on his adventure with Health: '+ str(herohp))
 while herohp != 0:
-    random
+    random.randint(1,15)

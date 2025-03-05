@@ -26,3 +26,6 @@ import random
 
 cust = input('What would u like to order')
 order =[]
+
+while cust != 'end':
+    order.append(cust)

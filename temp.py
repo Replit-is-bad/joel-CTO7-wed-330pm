@@ -24,4 +24,4 @@ import random
 
 
 
-cust = input('What would u like to oder')
+cust = input('What would u like to order')

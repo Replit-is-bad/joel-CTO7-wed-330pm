@@ -34,5 +34,6 @@ while cust != 'end':
 print('U have ordered the following: ')
 count=1
 for i in order:
-    print(str(1) +'.' +i)
+    print(str(count) +'.' +i)
+    count += 1
     

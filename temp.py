@@ -30,4 +30,4 @@ order =[]
 while cust != 'end':
     order.append(cust)
     cust = input('What would u like to order? ')
-print('U have ordered :')
+print('U have ordered the following: ')

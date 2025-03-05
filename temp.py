@@ -6,4 +6,8 @@ import random
 
 
 herohp = 100
-counter =
+counter = 0
+
+print('Hero starts on his adventure with Health: '+ str(herohp))
+while herohp != 0:
+    random

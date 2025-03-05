@@ -34,5 +34,5 @@ while cust != 'end':
 print('U have ordered the following: ')
 count=1
 for i in order:
-    print(len(i))
+    print(len(order))
     

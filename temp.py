@@ -24,3 +24,4 @@ import random
 
 
 
+cust = input

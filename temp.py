@@ -32,7 +32,7 @@ while cust != 'end':
     cust = input('What would u like to order? ')
 
 print('U have ordered the following: ')
-
+count=1
 for i in order:
     print(len(i))
     

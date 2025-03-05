@@ -11,4 +11,4 @@ counter = 0
 print('Hero starts on his adventure with Health: '+ str(herohp))
 while herohp != 0:
     dmg = random.randint(1,15)
-    print
+    print('')

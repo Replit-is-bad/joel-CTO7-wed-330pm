@@ -35,6 +35,7 @@ t.down()
 t.forward(600)
 t.hideturtle
 
+#bull
 Sally =turtle.Turtle()
 Sally.penup()
 Sally.seth(90)

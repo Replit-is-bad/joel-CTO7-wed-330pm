@@ -25,5 +25,5 @@ t.speed(10)
 t.stamp()
 t.sety(250)
 for i in range (25):
-    t.fillc
+    t.stamp()
 window.mainloop()

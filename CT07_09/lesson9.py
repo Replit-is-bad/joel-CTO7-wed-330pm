@@ -86,6 +86,6 @@ while True:
 if winner == guess:
     print('u win!!')
 else:
-    print('')
+    print('Better Luck Next Time!')
 window.mainloop()
 

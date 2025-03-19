@@ -9,4 +9,5 @@ for word in egg:
     if 'egg' in egg:
         isCorrect = True
 if isCorrect == True:
-    print('Cr')
+    print('Correct')
+else

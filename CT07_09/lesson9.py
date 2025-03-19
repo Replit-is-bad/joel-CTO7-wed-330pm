@@ -13,5 +13,5 @@ import turtle
 #     print('Worng')
 
 
-window = turtle.Screen(
-)
+window = turtle.Screen()
+

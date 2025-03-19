@@ -6,8 +6,7 @@ egg = egg.lower()
 egg = egg.split()
 
 
-    if 'egg' in egg:
-
+if 'egg' in egg:
     print('Correct')
 else:
     print('Worng')

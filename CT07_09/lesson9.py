@@ -83,6 +83,6 @@ while True:
         winner = 'sigma'
         break
 
-        
+
 window.mainloop()
 

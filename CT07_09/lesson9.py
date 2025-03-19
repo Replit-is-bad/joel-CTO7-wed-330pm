@@ -50,8 +50,8 @@ Bullpoop.penup()
 Bullpoop.seth(90)
 Bullpoop.shape('turtle')
 Bullpoop.color('azure')
-Bullpoop.goto(0,-250)
-Bullpoop.write('Bullpoop', align='', font=('Arial', 20))
+Bullpoop.goto(200,-250)
+Bullpoop.write('Bullpoop', align='center', font=('Arial', 20))
 
 #player : sigma
 sigma =turtle.Turtle()

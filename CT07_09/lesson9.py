@@ -15,11 +15,11 @@ import turtle
 
 window = turtle.Screen()
 window.setup(width=600, height=600)
-window.bgcolor('DarkStaleGrey')
+window.bgcolor('gold3')
 
 t = turtle.Turtle()
 t.shape("square")
-t.fillcolor("black")
+t.fillcolor("forestgreen")
 t.speed(10)
 
 t.up()

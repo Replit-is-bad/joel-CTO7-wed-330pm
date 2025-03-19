@@ -77,8 +77,10 @@ while True:
 
     if Sally.ycor() > 250:
         winner = 'Sally'
+        break
     elif Bullpoop.ycor() > 250:
         winner = 'Bullpoop'
+        break
     elif sigma.ycor() > 250:
         winner = 'sigma'
         break

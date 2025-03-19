@@ -12,7 +12,7 @@ import turtle
 # else:
 #     print('Worng')
 guess = input('Guess the winner: ')
-Winner =[]
+Winner = ''
 
 window = turtle.Screen()
 window.setup(width=600, height=600)
@@ -73,6 +73,9 @@ while True:
 
     Sally.forward(random.randint(1,20))
     Bullpoop.forward(random.randint(1,20))
-    Sally.forward(random.randint(1,20))
+    sigma.forward(random.randint(1,20))
+
+    if Sally.ycor() > 250:
+        winner
 window.mainloop()
 

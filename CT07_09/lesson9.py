@@ -63,5 +63,9 @@ sigma.color('blue')
 sigma.goto(-200,-250)
 sigma.write('sigma', align='center', font=('Arial', 20))
 
-
+sigma.down()
+Sally.down()
+Bullpoop.down()
+while True:
+    Sally.seth
 window.mainloop()

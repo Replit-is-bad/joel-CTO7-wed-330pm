@@ -39,6 +39,7 @@ Sally =turtle.Turtle()
 Sally.penup()
 Sally.seth(90)
 Sally.shape('turtle')
-Sally.color
+Sally.color('red')
+
 
 window.mainloop()

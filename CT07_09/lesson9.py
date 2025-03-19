@@ -49,6 +49,6 @@ Bullpoop.seth(90)
 Bullpoop.shape('turtle')
 Bullpoop.color('red')
 Bullpoop.goto(0,-250)
-Bullpoop.write('Sally', align='center', font=('Arial', 20))
+Bullpoop.write('Bullpoop', align='center', font=('Arial', 20))
 
 window.mainloop()

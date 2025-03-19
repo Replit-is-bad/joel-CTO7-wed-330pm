@@ -15,5 +15,5 @@ import turtle
 
 window = turtle.Screen()
 window.setup(width=700, height=500)
-window.bgcolor('gold4')
+window.bgcolor('gold3')
 window.mainloop()

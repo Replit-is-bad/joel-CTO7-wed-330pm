@@ -77,9 +77,9 @@ while True:
 
     if Sally.ycor() > 250:
         winner = 'Sally'
-    if Sally.ycor() > 250:
+    if Bullpoop.ycor() > 250:
         winner = 'Sally'
-    if Sally.ycor() > 250:
+    if sigma.ycor() > 250:
         winner = 'Sally'
 window.mainloop()
 

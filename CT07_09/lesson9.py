@@ -15,4 +15,4 @@ import turtle
 
 window = turtle.Screen()
 
-window.MAIL
+window.mainloop()

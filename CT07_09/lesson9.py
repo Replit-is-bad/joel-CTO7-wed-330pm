@@ -76,6 +76,6 @@ while True:
     sigma.forward(random.randint(1,20))
 
     if Sally.ycor() > 250:
-        winner
+        winner = 'Sally'
 window.mainloop()
 

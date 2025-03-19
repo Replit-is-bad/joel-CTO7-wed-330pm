@@ -29,5 +29,6 @@ for i in range(-300,301,25):
     t.stamp()
 
 t.goto(-300,-250)
-t.penc
+t.pencolor('yellow')
+
 window.mainloop()

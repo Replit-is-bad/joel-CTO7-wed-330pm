@@ -23,5 +23,6 @@ t.fillcolor("forestgreen")
 t.speed(10)
 
 t.stamp()
-t.sety()
+t.sety(250)
+
 window.mainloop()

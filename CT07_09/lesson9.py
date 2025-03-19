@@ -25,7 +25,7 @@ t.speed(10)
 t.up()
 t.sety(250)
 for i in range(-300,301,25):
-    
+    t.setx(i)
     t.stamp()
 
 window.mainloop()

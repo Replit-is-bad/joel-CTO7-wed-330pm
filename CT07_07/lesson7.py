@@ -30,24 +30,24 @@
 # print(fruits[:index])
 # print(fruits[index:])
 
-# common=[]
-# uncommon=[]
-# list1 = ["Apple", "Banana", "Cherry", "Durian"]
-# list2 = ["Cherry", "Durian", "Elderberry", "Figs"]
+common=[]
+uncommon=[]
+list1 = ["Apple", "Banana", "Cherry", "Durian"]
+list2 = ["Cherry", "Durian", "Elderberry", "Figs"]
 
-# for thing in list1:
-#     if thing in list2:
-#         common.append(thing)
-#     else:
-#         uncommon.append(thing)
+for thing in list1:
+    if thing in list2:
+        common.append(thing)
+    else:
+        uncommon.append(thing)
 
-# for thing in list2:
-#     if thing in list1:
-#         common.append(thing)
-#     else:
-#         uncommon.append(thing)
+for thing in list2:
+    if thing in list1:
+        common.append(thing)
+    else:
+        uncommon.append(thing)
 
-# print(uncommon)
+print(uncommon)
 
 
 

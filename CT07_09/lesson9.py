@@ -32,6 +32,7 @@ t.goto(-300,-250)
 t.seth(0)
 t.pencolor('yellow')
 t.down()
-T.f
+t.forward(600)
+
 
 window.mainloop()

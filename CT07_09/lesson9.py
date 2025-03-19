@@ -26,4 +26,5 @@ t.stamp()
 t.sety(250)
 for i in range (25):
     t.stamp()
+    
 window.mainloop()

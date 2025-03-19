@@ -81,6 +81,8 @@ while True:
         winner = 'Bullpoop'
     elif sigma.ycor() > 250:
         winner = 'sigma'
+        break
 
+        
 window.mainloop()
 

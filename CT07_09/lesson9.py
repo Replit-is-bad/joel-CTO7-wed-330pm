@@ -1,2 +1,2 @@
-egg = 
+egg = input('')
 

@@ -84,7 +84,7 @@ while True:
         break
 
 if winner == guess:
-    print(winner + '''u win!!')
+    print(winner + 'wins! '+'u win!!')
 else:
     print(winner+ ' wins! ' +'Better Luck Next Time!')
 window.mainloop()

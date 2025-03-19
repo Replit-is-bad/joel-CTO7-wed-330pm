@@ -83,6 +83,7 @@ while True:
         winner = 'sigma'
         break
 
-
+if winner == guess:
+    print
 window.mainloop()
 

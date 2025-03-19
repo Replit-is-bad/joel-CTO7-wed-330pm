@@ -6,4 +6,4 @@ egg = egg.lower()
 for word in egg:
     if egg == 'egg':
         print('correct')
-
+        time.sleep(1)

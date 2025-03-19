@@ -3,4 +3,5 @@ isCorrect = 'egg'
 egg = egg.lower()
 for word in egg:
     if egg == 'egg':
-        print("")
+        print('correct')
+        

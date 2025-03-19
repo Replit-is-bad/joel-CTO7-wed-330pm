@@ -10,4 +10,5 @@ for word in egg:
         isCorrect = True
 if isCorrect == True:
     print('Correct')
-else
+else:
+    print('Worng')

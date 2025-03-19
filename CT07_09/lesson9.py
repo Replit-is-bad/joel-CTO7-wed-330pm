@@ -1,7 +1,7 @@
 import time
 
 egg = input('Give me a word or phrase: ')
-isCorrect = fla
+isCorrect = False
 egg = egg.lower()
 egg = egg.split()
 

@@ -72,4 +72,7 @@ while True:
     sigma.seth(random.randint(75,115))
 
     Sally.forward(random.randint(1,20))
+    Bullpoop.forward(random.randint(1,20))
+    Sally.forward(random.randint(1,20))
 window.mainloop()
+

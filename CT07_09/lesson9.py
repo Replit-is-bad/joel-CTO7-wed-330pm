@@ -33,6 +33,6 @@ t.seth(0)
 t.pencolor('yellow')
 t.down()
 t.forward(600)
-
+t.hideturtle
 
 window.mainloop()

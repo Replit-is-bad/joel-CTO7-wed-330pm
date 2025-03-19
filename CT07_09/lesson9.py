@@ -35,6 +35,6 @@ t.down()
 t.forward(600)
 t.hideturtle
 
-Sally =tur
+Sally =turtle.Turtle
 
 window.mainloop()

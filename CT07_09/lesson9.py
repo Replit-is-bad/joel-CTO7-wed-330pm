@@ -3,7 +3,6 @@ import time
 egg = input('Give me a word or phrase: ')
 isCorrect = 'egg'
 egg = egg.lower()
-list23 = []
 egg = egg.split()
 
 for word in egg:

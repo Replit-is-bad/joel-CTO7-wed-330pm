@@ -67,5 +67,5 @@ sigma.down()
 Sally.down()
 Bullpoop.down()
 while True:
-    Sally.seth
+    Sally.seth(random.randint())
 window.mainloop()

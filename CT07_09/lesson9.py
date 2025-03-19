@@ -49,7 +49,7 @@ Bullpoop =turtle.Turtle()
 Bullpoop.penup()
 Bullpoop.seth(90)
 Bullpoop.shape('turtle')
-Bullpoop.color('red')
+Bullpoop.color('azure')
 Bullpoop.goto(0,-250)
 Bullpoop.write('Bullpoop', align='center', font=('Arial', 20))
 

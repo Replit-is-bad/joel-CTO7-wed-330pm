@@ -35,4 +35,6 @@ t.down()
 t.forward(600)
 t.hideturtle
 
+
+
 window.mainloop()

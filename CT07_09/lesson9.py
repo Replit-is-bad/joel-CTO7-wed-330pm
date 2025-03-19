@@ -61,4 +61,5 @@ sigma.shape('turtle')
 sigma.color('blue')
 sigma.goto(-200,-250)
 sigma.write('sigma', align='center', font=('Arial', 20))
+
 window.mainloop()

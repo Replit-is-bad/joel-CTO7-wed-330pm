@@ -45,9 +45,9 @@ Sally.write('Sally', align='center', font=('Arial', 20))
 
 Bullpoop =turtle.Turtle()
 Bullpoop.penup()
-Bullshit.seth(90)
+Bullpoop.seth(90)
 Bullpoop.shape('turtle')
-Sally.color('red')
+.color('red')
 Sally.goto(0,-250)
 Sally.write('Sally', align='center', font=('Arial', 20))
 

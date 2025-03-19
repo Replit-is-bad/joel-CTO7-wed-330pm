@@ -6,6 +6,6 @@ egg = egg.lower()
 egg = egg.split()
 
 for word in egg:
-    if egg == 'egg':
+    if 'egg' in egg:
         print('correct')
         time.sleep(1)

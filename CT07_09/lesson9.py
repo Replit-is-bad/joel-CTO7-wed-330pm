@@ -7,5 +7,4 @@ egg = egg.split()
 
 for word in egg:
     if 'egg' in egg:
-        print('correct')
-        time.sleep(1)
+        isCorrect = True

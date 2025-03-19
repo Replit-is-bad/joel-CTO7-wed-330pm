@@ -55,8 +55,7 @@ Bullpoop.write('Bullpoop', align='center', font=('Arial', 20))
 
 #player : sigma
 sigma =turtle.Turtle()
-Sally =turtle.Turtle()
-Sally.penup()
+sigma.penup()
 Sally.seth(90)
 Sally.shape('turtle')
 Sally.color('red')

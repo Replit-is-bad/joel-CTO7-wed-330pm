@@ -42,4 +42,5 @@ Sally.shape('turtle')
 Sally.color('red')
 Sally.goto(0,-250)
 
+
 window.mainloop()

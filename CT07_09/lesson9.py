@@ -11,7 +11,7 @@ import turtle
 #     print('Correct')
 # else:
 #     print('Worng')
-guess = input
+guess = input('Guess')
 
 window = turtle.Screen()
 window.setup(width=600, height=600)

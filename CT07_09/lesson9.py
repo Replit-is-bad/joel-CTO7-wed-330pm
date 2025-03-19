@@ -13,3 +13,4 @@ import turtle
 #     print('Worng')
 
 
+window = turtle.

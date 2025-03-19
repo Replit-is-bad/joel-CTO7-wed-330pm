@@ -1,2 +1,2 @@
-egg = input('')
+egg = input('Give me ')
 

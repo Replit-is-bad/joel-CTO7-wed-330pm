@@ -12,6 +12,7 @@ import turtle
 # else:
 #     print('Worng')
 guess = input('Guess the winner: ')
+Winner =[]
 
 window = turtle.Screen()
 window.setup(width=600, height=600)

@@ -85,5 +85,7 @@ while True:
 
 if winner == guess:
     print('u win!!')
+else:
+    print
 window.mainloop()
 

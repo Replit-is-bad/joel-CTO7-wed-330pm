@@ -71,5 +71,5 @@ while True:
     Bullpoop.seth(random.randint(75,115))
     sigma.seth(random.randint(75,115))
 
-    
+    Sally.forward()
 window.mainloop()

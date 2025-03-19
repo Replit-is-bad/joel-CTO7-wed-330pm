@@ -19,5 +19,5 @@ window.bgcolor('gold3')
 t = turtle.Turtle()
 t.shape("circle")
 t.fillcolor("forestgreen")
-t
+t.speed(10)
 window.mainloop()

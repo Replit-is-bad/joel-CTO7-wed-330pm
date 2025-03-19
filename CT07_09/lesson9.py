@@ -43,7 +43,7 @@ Sally.color('red')
 Sally.goto(0,-250)
 Sally.write('Sally', align='center', font=('Arial', 20))
 
-#player
+#player : Bullpoop
 Bullpoop =turtle.Turtle()
 Bullpoop.penup()
 Bullpoop.seth(90)

@@ -19,7 +19,7 @@ window.bgcolor('DarkStaleGrey')
 
 t = turtle.Turtle()
 t.shape("square")
-t.fillcolor("forestgreen")
+t.fillcolor("black")
 t.speed(10)
 
 t.up()

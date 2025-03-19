@@ -1,7 +1,6 @@
 import time
 
 egg = input('Give me a word or phrase: ')
-isCorrect = 'egg'
 egg = egg.lower()
 egg = egg.split()
 

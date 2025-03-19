@@ -40,6 +40,6 @@ Sally.penup()
 Sally.seth(90)
 Sally.shape('turtle')
 Sally.color('red')
-Sally.goto(0,)
+Sally.goto(0,-250)
 
 window.mainloop()

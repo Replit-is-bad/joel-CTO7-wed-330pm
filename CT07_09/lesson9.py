@@ -1,4 +1,5 @@
 import random
+import turtle
 
 # egg = input('Give me a word or phrase: ')
 # isCorrect = False

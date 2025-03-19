@@ -18,7 +18,7 @@ window.setup(width=700, height=500)
 window.bgcolor('gold3')
 
 t = turtle.Turtle()
-t.shape("circle")
+t.shape("circlesu")
 t.fillcolor("forestgreen")
 t.speed(10)
 

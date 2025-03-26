@@ -3,4 +3,5 @@ import turtle
 
 
 window = turtle.Screen()
-window.setup(wit)
+window.setup(width=500 ,height=500)
+

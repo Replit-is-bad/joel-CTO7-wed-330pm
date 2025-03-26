@@ -33,3 +33,5 @@
 # if isE(65):
 #     print('sup')
 
+def whatsapME(num):
+    return ''

@@ -32,8 +32,9 @@ import random
 #         return True
 # if isE(65):
 #     print('sup')
-num = random.randint(90000000,99999999)
 
-def whatsapME(num):
-    return 'Whatsapp me at https://wa.me/65' + num
-print(whatsapME(str(num)))
+# num = random.randint(90000000,99999999)
+
+# def whatsapME(num):
+#     return 'Whatsapp me at https://wa.me/65' + num
+# print(whatsapME(str(num)))

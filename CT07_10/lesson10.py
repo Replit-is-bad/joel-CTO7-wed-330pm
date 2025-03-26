@@ -21,7 +21,7 @@ def square():
             t.left(math)
         count += 1
         math = 360/count
-scu
+square()v
 # def muliyp(a,b):
 #     print(a*b)
 # muliyp(3,5)

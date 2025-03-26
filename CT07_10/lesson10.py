@@ -11,8 +11,8 @@ t.fillcolor("orange")
 t.speed(10)
 t.seth(0)
 
-
-t.forward(100)
-t.left(72)
+for i in range (5):
+    t.forward(100)
+    t.left(72)
 
 window.mainloop()

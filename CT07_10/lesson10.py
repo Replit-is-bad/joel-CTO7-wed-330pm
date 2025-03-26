@@ -6,7 +6,7 @@ window = turtle.Screen()
 window.setup(width=500 ,height=500)
 
 t = turtle.Turtle()
-t.shape("square")
+t.shape("turtle")
 t.fillcolor("forestgreen")
 t.speed(10)
 

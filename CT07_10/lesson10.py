@@ -22,4 +22,6 @@ def square():
         count += 1
         math = 360/count
 
+def muliyp(a,b):
+    print()
 square()

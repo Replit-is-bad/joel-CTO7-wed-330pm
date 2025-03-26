@@ -10,6 +10,7 @@ t.shape("turtle")
 t.fillcolor("orange")
 t.speed(10)
 t.seth(0)
+
 def square():
     count = 3
     math = 360/count

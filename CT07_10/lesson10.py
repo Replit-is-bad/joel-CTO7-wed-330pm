@@ -22,7 +22,7 @@ def square():
         count += 1
         math = 360/count
 
-def muliyp(a,b):
-    print(a*b)
-muliyp(3,5)
+# def muliyp(a,b):
+#     print(a*b)
+# muliyp(3,5)
 square()

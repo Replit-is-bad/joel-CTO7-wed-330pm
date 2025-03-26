@@ -21,4 +21,4 @@ def square():
         count += 1
         math = 360/count
 
-
+square()

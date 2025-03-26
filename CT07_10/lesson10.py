@@ -30,4 +30,5 @@ age = input(int('how old r u? '))
 def isE(age):
     if age >= 65:
         return True
-    
+if isE(65):
+    print('su')

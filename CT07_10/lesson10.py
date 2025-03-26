@@ -20,4 +20,3 @@ while True:
         t.left(math)
     count += 1
 
-window.mainloop()

@@ -12,12 +12,12 @@ t.speed(10)
 t.seth(0)
 def square():
     count = 3
-math = 360/count
+    math = 360/count
 
-while True: 
-    for i in range (count):
-        t.forward(100)
-        t.left(math)
+    while True: 
+        for i in range (count):
+            t.forward(100)
+            t.left(math)
     count += 1
     math = 360/count
 

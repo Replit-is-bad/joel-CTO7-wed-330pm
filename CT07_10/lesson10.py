@@ -26,7 +26,7 @@
 # def muliyp(a,b):
 #     print(a*b)
 # muliyp(3,5)
-age = input(int('how old r u? '))
+
 def isE(age):
     if age >= 65:
         return True

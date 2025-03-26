@@ -32,7 +32,7 @@ import random
 #         return True
 # if isE(65):
 #     print('sup')
-phnum = 
+phnum = random.randint(900)
 
 def whatsapME(num):
     return 'Whatsapp me at https://wa.me/65' + num

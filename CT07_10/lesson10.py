@@ -29,4 +29,4 @@
 age = input(int('how old r u? '))
 def isE(age):
     if age >= 65:
-        return 
+        return age

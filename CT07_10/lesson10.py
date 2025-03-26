@@ -25,4 +25,4 @@ def square():
 def muliyp(a,b):
     print(a,b)
 square()
-
+muliyp()

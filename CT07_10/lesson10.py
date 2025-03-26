@@ -27,8 +27,9 @@
 #     print(a*b)
 # muliyp(3,5)
 
-def isE(age):
-    if age >= 65:
-        return True
-if isE(65):
-    print('sup')
+# def isE(age):
+#     if age >= 65:
+#         return True
+# if isE(65):
+#     print('sup')
+

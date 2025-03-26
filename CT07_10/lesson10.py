@@ -1,5 +1,5 @@
 # import turtle
-
+import random
 
 
 # window = turtle.Screen()
@@ -32,7 +32,7 @@
 #         return True
 # if isE(65):
 #     print('sup')
-phnum
+phnum = 
 
 def whatsapME(num):
     return 'Whatsapp me at https://wa.me/65' + num

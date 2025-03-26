@@ -12,4 +12,5 @@ t.speed(10)
 t.seth
 
 
+
 window.mainloop()

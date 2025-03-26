@@ -33,5 +33,6 @@
 # if isE(65):
 #     print('sup')
 
+
 def whatsapME(num):
-    return 'Whatsapp me at https://wa.me/65'
+    return 'Whatsapp me at https://wa.me/65' + num

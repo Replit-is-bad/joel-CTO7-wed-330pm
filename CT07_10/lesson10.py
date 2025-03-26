@@ -18,7 +18,7 @@ def square():
         for i in range (count):
             t.forward(100)
             t.left(math)
-    count += 1
-    math = 360/count
+        count += 1
+        math = 360/count
 
 

@@ -11,6 +11,6 @@ t.fillcolor("orange")
 t.speed(10)
 t.seth
 
-
+t.forward
 
 window.mainloop()

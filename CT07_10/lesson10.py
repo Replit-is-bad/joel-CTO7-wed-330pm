@@ -3,7 +3,7 @@ import turtle
 
 
 window = turtle.Screen()
-window.setup(width=600 ,height=500)
+window.setup(width=600 ,height=800)
 
 t = turtle.Turtle()
 t.shape("turtle")

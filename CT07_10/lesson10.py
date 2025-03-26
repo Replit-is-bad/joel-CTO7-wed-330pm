@@ -22,4 +22,4 @@
 #     math = 360/count
 
 def alert():
-    print"
+    print('Motion De')

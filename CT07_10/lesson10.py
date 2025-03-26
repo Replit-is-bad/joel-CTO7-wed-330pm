@@ -32,7 +32,7 @@
 #         return True
 # if isE(65):
 #     print('sup')
-
+phnum
 
 def whatsapME(num):
     return 'Whatsapp me at https://wa.me/65' + num

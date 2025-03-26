@@ -10,6 +10,8 @@ t.shape("turtle")
 t.fillcolor("orange")
 t.speed(10)
 t.seth(0)
+
+count = 3
 math = 360/count
 
 for i in range (5):

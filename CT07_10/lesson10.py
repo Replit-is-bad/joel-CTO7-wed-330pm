@@ -11,7 +11,7 @@ t.fillcolor("orange")
 t.speed(10)
 t.seth(0)
 
-while True:
-    t.forward(100)
-    t.left(90)
+
+t.forward(100)
+t.left(90)
 

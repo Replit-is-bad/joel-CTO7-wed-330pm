@@ -17,6 +17,7 @@ math = 360/count
 while True: 
     for i in range (count):
         t.forward(100)
-    t.left(math)
+        t.left(math)
+    count += 1
 
 window.mainloop()

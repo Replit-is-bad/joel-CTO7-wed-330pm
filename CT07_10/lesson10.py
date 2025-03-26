@@ -21,7 +21,4 @@
 #     count += 1
 #     math = 360/count
 
-def alert():
-    print('Motion Detected')
 
-alert()

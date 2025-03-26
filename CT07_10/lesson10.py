@@ -34,4 +34,4 @@
 #     print('sup')
 
 def whatsapME(num):
-    return ''
+    return 'Whatsapp me at https://wa.me/65'

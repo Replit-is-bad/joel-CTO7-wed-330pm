@@ -2,4 +2,4 @@ import turtle
 
 
 
-window = turtle.sc
+window = turtle.Screen()

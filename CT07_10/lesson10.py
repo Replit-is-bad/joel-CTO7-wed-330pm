@@ -14,9 +14,9 @@ t.seth(0)
 count = 3
 math = 360/count
 
-
-for i in range (count):
-    t.forward(100)
+while True: 
+    for i in range (count):
+        t.forward(100)
     t.left(math)
 
 window.mainloop()

@@ -38,4 +38,4 @@ board = initboard()
 printboard(board)
 
 
-pMove = inpuit
+pMove = input

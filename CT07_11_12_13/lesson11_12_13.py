@@ -23,15 +23,16 @@ def initboard():
 
 board = initboard()
 
-#empty space
-count = 1
-#retriving the board row
-for row in board:
+def printboard(board):
+    #empty space
+    count = 1
+    #retriving the board row
+    for row in board:
 
-    for col in row:
-        print(f'| {count} ', end = '')
+        for col in row:
+            print(f'| {count} ', end = '')
 
-        if count % 3 == 0: # helps to calculate new row
-            print('|')
-            print('-'*13)
-        count += 1
+            if count % 3 == 0: # helps to calculate new row
+                print('|')
+                print('-'*13)
+            count += 1

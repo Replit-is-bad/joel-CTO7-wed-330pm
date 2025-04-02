@@ -42,6 +42,7 @@ pMove = input('Enter a number from 1-9: ')
 
 
 if pMove.isdigit():
-    move = int(move)
+    move = intmove)
+
 else:
     print('ERROR : ...  -  ..-  .--.  ..  -..')

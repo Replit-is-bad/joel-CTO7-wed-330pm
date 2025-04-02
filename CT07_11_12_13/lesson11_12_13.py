@@ -33,5 +33,5 @@ for row in board:
 
         if count % 3 == 0: # helps to calculate new row
             print('|')
-            print()
+            print('_'*)
         count += 1

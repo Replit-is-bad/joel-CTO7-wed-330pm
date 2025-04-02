@@ -14,4 +14,6 @@
 board = []
 
 for i in range(3):
-    row
+    row = []
+    for j in range(3):
+        row.append

@@ -5,5 +5,5 @@ def diceGuess(par1):
     rNum1 = random.randint(1,6)
     if rNum1 == par1:
         return True
-    
-diceGuess(4)
+        
+print(diceGuess(4))

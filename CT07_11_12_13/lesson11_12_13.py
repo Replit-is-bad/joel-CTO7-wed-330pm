@@ -19,4 +19,4 @@ def initboard():
             row.append(" ")
         board.append(row)
 
-    print(board)
+    return board

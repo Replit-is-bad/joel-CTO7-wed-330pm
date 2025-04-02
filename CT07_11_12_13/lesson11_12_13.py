@@ -45,7 +45,7 @@ while True:
         if pMove >1 and pMove <= 9:
             pMove = pMove -1
             row = pMove // 3
-            col = pMove
+            col = pMove % 3
         else:
             print('ERROR :.... .- ...- . / .- / -. .. -.-. . / -.. .- -.-- .-.-.- .-.-.- .-.-.- . .-.. ... . .-- .... . .-. . .-.-.-')
     else:

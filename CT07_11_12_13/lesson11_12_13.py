@@ -29,5 +29,5 @@ count = 1
 for row in board:
 
     for col in row:
-        print(f'|{count}')
+        print(f'|{count}', end = '')
         count += 1

@@ -29,7 +29,7 @@ count = 1
 for row in board:
 
     for col in row:
-        print(f'|{count}', end = '')
+        print(f'| {count} ', end = '')
 
         if count % 3 == 0: # helps to calculate new row
             print('|')

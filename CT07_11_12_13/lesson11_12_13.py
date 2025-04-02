@@ -45,7 +45,7 @@ if pMove.isdigit():
     if pMove >1 and pMove <= 9:
         pMove = pMove -1
         row = pMove // 3
-        
+        col =pMove
     else:
         print('ERROR :.... .- ...- . / .- / -. .. -.-. . / -.. .- -.-- .-.-.- .-.-.- .-.-.- . .-.. ... . .-- .... . .-. . .-.-.-')
 else:

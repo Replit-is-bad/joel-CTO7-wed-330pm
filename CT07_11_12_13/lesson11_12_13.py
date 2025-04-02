@@ -6,3 +6,4 @@ def diceGuess(par1):
     if rNum1 == par1:
         return True
     
+diceGuess()

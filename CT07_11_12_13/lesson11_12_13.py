@@ -31,6 +31,6 @@ for row in board:
     for col in row:
         print(f'|{count}', end = '')
 
-        if count % 3 == 0:
+        if count % 3 == 0: # helps to 
             print('|')
         count += 1

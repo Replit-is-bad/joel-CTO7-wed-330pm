@@ -43,7 +43,7 @@ pMove = input('Enter a number from 1-9: ')
 if pMove.isdigit():
     pMove = int(pMove)
     if pMove >1 and pMove <= 9:
-        pass
+        pMove =pMove
     else:
         print('ERROR :.... .- ...- . / .- / -. .. -.-. . / -.. .- -.-- .-.-.- .-.-.- .-.-.- . .-.. ... . .-- .... . .-. . .-.-.-')
 else:

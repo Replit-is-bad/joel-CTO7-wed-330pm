@@ -36,3 +36,5 @@ def printboard(board):
 
 board = initboard()
 printboard(board)
+
+

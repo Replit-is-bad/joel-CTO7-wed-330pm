@@ -38,4 +38,4 @@ board = initboard()
 printboard(board)
 
 
-pMove = input('En')
+pMove = input('Enter a number ')

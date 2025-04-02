@@ -21,4 +21,4 @@ def initboard():
 
     return board
 
-board = initboard
+board = initboard()

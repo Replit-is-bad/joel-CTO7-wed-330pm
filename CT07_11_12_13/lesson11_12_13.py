@@ -38,3 +38,4 @@ board = initboard()
 printboard(board)
 
 
+pMove = inpuit

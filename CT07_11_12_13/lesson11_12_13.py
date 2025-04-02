@@ -31,3 +31,6 @@ for row in board:
     for col in row:
         print(f'|{count}', end = '')
         count += 1
+
+        if count % 3 == 0:
+            print('|')

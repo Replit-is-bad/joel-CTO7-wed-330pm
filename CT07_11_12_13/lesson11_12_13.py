@@ -20,3 +20,5 @@ def initboard():
         board.append(row)
 
     return board
+
+board = initboard

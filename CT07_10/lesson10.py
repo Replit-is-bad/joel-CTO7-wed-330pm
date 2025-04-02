@@ -39,4 +39,3 @@ import random
 #     return 'Whatsapp me at https://wa.me/65' + num
 # print(whatsapME(str(num)))
 
-')

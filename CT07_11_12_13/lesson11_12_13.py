@@ -11,3 +11,4 @@
 # print(diceGuess(4))
 
 
+board = []

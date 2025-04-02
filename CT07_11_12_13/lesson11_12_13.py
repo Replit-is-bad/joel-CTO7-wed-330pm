@@ -37,16 +37,16 @@ def printboard(board):
 board = initboard()
 printboard(board)
 
+while True:
+    pMove = input('Enter a number from 1-9: ')
 
-pMove = input('Enter a number from 1-9: ')
-
-if pMove.isdigit():
-    pMove = int(pMove)
-    if pMove >1 and pMove <= 9:
-        pMove = pMove -1
-        row = pMove // 3
-        col = pMove
+    if pMove.isdigit():
+        pMove = int(pMove)
+        if pMove >1 and pMove <= 9:
+            pMove = pMove -1
+            row = pMove // 3
+            col = pMove
+        else:
+            print('ERROR :.... .- ...- . / .- / -. .. -.-. . / -.. .- -.-- .-.-.- .-.-.- .-.-.- . .-.. ... . .-- .... . .-. . .-.-.-')
     else:
-        print('ERROR :.... .- ...- . / .- / -. .. -.-. . / -.. .- -.-- .-.-.- .-.-.- .-.-.- . .-.. ... . .-- .... . .-. . .-.-.-')
-else:
-    print('ERROR : ...  -  ..-  .--.  ..  -..')
+        print('ERROR : ...  -  ..-  .--.  ..  -..')

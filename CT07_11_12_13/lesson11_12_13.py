@@ -45,6 +45,7 @@ if pMove.isdigit():
     pMove = int(pMove)
     if pMove >1 and pMove <= 9:
         pass
-
+    else:
+        print('ERROR : ...  -  ..-  .--.  ..  -..')
 else:
     print('ERROR : ...  -  ..-  .--.  ..  -..')

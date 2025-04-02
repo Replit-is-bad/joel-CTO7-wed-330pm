@@ -35,4 +35,4 @@ def printboard(board):
             count += 1
 
 board = initboard()
-printboard
+printboard(board)

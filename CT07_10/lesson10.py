@@ -39,14 +39,4 @@ import random
 #     return 'Whatsapp me at https://wa.me/65' + num
 # print(whatsapME(str(num)))
 
-def ComputrMOve():
-    bot = random.randint(1,3)
-    if bot == 1:
-        chose = 'rock'
-    elif bot == 2:
-        chose = 'paper'
-    else:
-        chose = 'scissors'
-def winner():
-    i
-per = input('pick rock , paper or scissors')
+')

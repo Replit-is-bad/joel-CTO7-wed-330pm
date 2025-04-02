@@ -21,8 +21,6 @@ def initboard():
 
     return board
 
-board = initboard()
-
 def printboard(board):
     #empty space
     count = 1
@@ -35,3 +33,5 @@ def printboard(board):
                 print('|')
                 print('-'*13)
             count += 1
+board = initboard()
+

@@ -44,4 +44,4 @@ pMove = input('Enter a number from 1-9: ')
 if pMove.isdigit():
     pass
 else:
-    print
+    print("")

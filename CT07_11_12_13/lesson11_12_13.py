@@ -23,3 +23,10 @@ def initboard():
 
 board = initboard()
 
+#empty space
+count = 1
+#retriving the board row
+for row in board:
+
+    for col in row:
+        print

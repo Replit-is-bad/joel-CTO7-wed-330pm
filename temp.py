@@ -149,6 +149,21 @@ def simulate_battle():
         print(f"👾 [{tier}] {monster} hits for {damage} damage! "
               f"{hero_name}'s HP: {hero_hp} | +{gained_xp} XP (Total: {hero_xp})")
         # After monster encounter:
+        hero_stats = {
+            "hp": hero_hp,
+            "max_hp": hero_max_hp,
+            "xp": hero_xp,
+            "level": hero_level,
+            "hp_gain": hp_gain_per_level
+        }
+
+        hero_stats = trigger_random_event(hero_name, hero_stats)
+
+        # Sync back values
+        hero_hp = hero_stats["hp"]
+        hero_max_hp = hero_stats["max_hp"]
+        hero_xp = hero_stats["xp"]
+        hero_level = hero_stats["level"]
 
         # Level up check
         while hero_xp >= xp_required(hero_level):

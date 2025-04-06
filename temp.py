@@ -6,6 +6,8 @@ import time
 herohp = 100
 counter = 0
 
+
+
 print('Hero starts on his adventure with Health: ' + str(herohp))
 time.sleep(0.5)
 while herohp >= 0:

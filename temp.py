@@ -148,7 +148,7 @@ def simulate_battle():
 
         print(f"👾 [{tier}] {monster} hits for {damage} damage! "
               f"{hero_name}'s HP: {hero_hp} | +{gained_xp} XP (Total: {hero_xp})")
-            # After monster encounter:
+        
 
         # Level up check
         while hero_xp >= xp_required(hero_level):

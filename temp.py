@@ -28,16 +28,16 @@ print('Your hero died fighting ' + str(counter) + ' monsters')
 
 
 
-cust = input('What would u like to order? ')
-order =[]
+# cust = input('What would u like to order? ')
+# order =[]
 
-while cust != 'end':
-    order.append(cust)
-    cust = input('What would u like to order? ')
+# while cust != 'end':
+#     order.append(cust)
+#     cust = input('What would u like to order? ')
 
-print('U have ordered the following: ')
-count=1
-for i in order:
-    print(str(count) +'. ' +i)
-    count += 1
+# print('U have ordered the following: ')
+# count=1
+# for i in order:
+#     print(str(count) +'. ' +i)
+#     count += 1
     

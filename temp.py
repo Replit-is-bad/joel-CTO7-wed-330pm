@@ -45,7 +45,7 @@ def simulate_battle():
     hero_xp = 0
     monsters_defeated = 0
 
-    print(f"🧙‍♂️ Hero begins their quest at Level {hero_level} with {hero_hp} HP!")
+    print(f" Hero begins their quest at Level {hero_level} with {hero_hp} HP!")
     time.sleep(0.5)
 
     def xp_required(level):
@@ -56,13 +56,13 @@ def simulate_battle():
         hero_hp -= damage
 
         if hero_hp <= 0:
-            print(f"☠️ A {tier} monster [{monster}] hits for {damage} damage and slays the hero!")
+            print(f" A {tier} monster [{monster}] hits for {damage} damage and slays the hero!")
             break
 
         hero_xp += xp
         monsters_defeated += 1
 
-        print(f"👾 [{tier}] {monster} strikes for {damage} damage! "
+        print(f" [{tier}] {monster} strikes for {damage} damage! "
               f"Hero HP: {hero_hp} | Gained {xp} XP (Total: {hero_xp})")
 
         # Check for level up

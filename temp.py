@@ -7,7 +7,7 @@ herohp = 100
 counter = 0
 
 Monster = [
-    ['Green slime']
+    ['Green Slime','']
 ]
 
 print('Hero starts on his adventure with Health: ' + str(herohp))

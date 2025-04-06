@@ -34,6 +34,53 @@ MONSTER_TIERS = {
         "weight": 5
     }
 }
+def trigger_random_event(hero_name, hero_stats):
+    event_chance = 0.10  # 10% per loop
+    if random.random() > event_chance:
+        return hero_stats  # No event
+
+    event_roll = random.randint(1, 6)
+
+    if event_roll == 1:
+        # 🍗 Mystic Feast
+        heal = 30
+        hero_stats['hp'] = min(hero_stats['max_hp'], hero_stats['hp'] + heal)
+        print(f"🍗 {hero_name} discovers a Mystic Feast! Restores {heal} HP.")
+    elif event_roll == 2:
+        # ✨ Ancient Blessing
+        hero_stats['level'] += 1
+        hero_stats['max_hp'] += hero_stats['hp_gain']
+        hero_stats['hp'] += hero_stats['hp_gain']
+        print(f"✨ An Ancient Blessing empowers {hero_name}! Leveled up to {hero_stats['level']} (HP: {hero_stats['hp']})")
+    elif event_roll == 3:
+        # 💎 Treasure Chest
+        bonus_xp = 100
+        hero_stats['xp'] += bonus_xp
+        print(f"💎 {hero_name} finds a treasure chest! Gains {bonus_xp} bonus XP.")
+    elif event_roll == 4:
+        # ☠️ Ambush
+        ambush_dmg = 15
+        hero_stats['hp'] -= ambush_dmg
+        print(f"☠️ {hero_name} was ambushed! Took {ambush_dmg} damage.")
+    elif event_roll == 5:
+        # 💣 Trap
+        trap_dmg = 20
+        hero_stats['hp'] -= trap_dmg
+        print(f"💣 A trap triggers under {hero_name}'s feet! -{trap_dmg} HP.")
+    elif event_roll == 6:
+        # 👻 Cursed Totem
+        if hero_stats['xp'] >= 50:
+            hero_stats['xp'] -= 50
+            print(f"👻 A cursed totem steals 50 XP from {hero_name}.")
+        elif hero_stats['level'] > 1:
+            hero_stats['level'] -= 1
+            hero_stats['max_hp'] -= hero_stats['hp_gain']
+            print(f"👻 Cursed Totem weakens {hero_name}, losing 1 level!")
+        else:
+            print(f"👻 A cursed totem tries to curse {hero_name}, but nothing happens.")
+
+    time.sleep(SLEEP_DURATION)
+    return hero_stats
 
 def choose_monster():
     tiers = list(MONSTER_TIERS.keys())

@@ -97,7 +97,7 @@ def checktie(argboard):
         for cell in row:
             if cell ==' ':
                 return False
-    
+    return True
 
 #Main game loop
 board = initboard()

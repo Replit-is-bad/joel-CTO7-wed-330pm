@@ -40,6 +40,7 @@ printboard(board)
 
 
 while True:
+    
     pMove = input('Enter a number from 1-9: ')
 
     if pMove.isdigit():

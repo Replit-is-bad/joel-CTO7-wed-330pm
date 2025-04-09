@@ -42,7 +42,7 @@ def get_player_move(argboard):
 
         if pMove.isdigit():
             pMove = int(pMove)
-            if pMove >1 and pMove <= 9:
+            if pMove >=1 and pMove <= 9:
                 pMove = pMove -1
                 row = pMove // 3
                 col = pMove % 3
@@ -67,6 +67,6 @@ board = initboard()
 while True:
     printboard(board)
     board = get_player_move(board)
-    
+
 
 

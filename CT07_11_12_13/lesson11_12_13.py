@@ -21,7 +21,7 @@ def initboard():
 
     return board
 
-def printboard(argboard,cplayer):
+def printboard(argboard):
     #empty space
     count = 1
     #retriving the board row
@@ -37,7 +37,7 @@ def printboard(argboard,cplayer):
                 print('-'*13)
             count += 1
 
-def get_player_move(argboard):
+def get_player_move(argboard,):
 
     while True:
         

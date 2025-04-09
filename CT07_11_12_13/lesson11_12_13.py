@@ -104,7 +104,7 @@ while True:
     board = get_player_move(board, cplayer)
 
     if checkwin(board):
-        print
+        print(f'Player')
 
 
 

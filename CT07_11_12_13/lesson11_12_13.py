@@ -63,7 +63,9 @@ def get_player_move(argboard):
             print('ERROR : ...  -  ..-  .--.  ..  -..')
     return argboard
 
-
+def getcurrentplayer(player):
+    if player == 'X':
+        return 'O'
 
 #Main game loop
 board = initboard()

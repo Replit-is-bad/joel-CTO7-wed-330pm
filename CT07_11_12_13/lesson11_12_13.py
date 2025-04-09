@@ -21,7 +21,7 @@ def initboard():
 
     return board
 
-def printboard(argboard):
+def printboard(argboard,cplayerr):
     #empty space
     count = 1
     #retriving the board row

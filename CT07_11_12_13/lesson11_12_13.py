@@ -88,6 +88,7 @@ def checkwin(argboard):
 
 
     for condition in win:
+        print(f"{condition[0]} {condition[1]} {condition[2]}")
         if condition[0] == condition[1] == condition[2] and condition[0] !='':
             return True
     return False

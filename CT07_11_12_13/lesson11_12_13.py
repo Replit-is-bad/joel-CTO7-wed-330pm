@@ -105,6 +105,7 @@ while True:
 
     if checkwin(board):
         print(f'Player {cplayer} wins!!')
+        print
         break
 
 

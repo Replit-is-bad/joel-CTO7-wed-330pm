@@ -61,4 +61,4 @@ def get_player_move(argboard):
                 print('ERROR :.... .- ...- . / .- / -. .. -.-. . / -.. .- -.-- .-.-.- .-.-.- .-.-.- . .-.. ... . .-- .... . .-. . .-.-.-')
         else:
             print('ERROR : ...  -  ..-  .--.  ..  -..')
-    return
+    return argboard

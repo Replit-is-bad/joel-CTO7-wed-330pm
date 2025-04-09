@@ -46,7 +46,7 @@ while True:
             pMove = pMove -1
             row = pMove // 3
             col = pMove % 3
-            
+            print
         else:
             print('ERROR :.... .- ...- . / .- / -. .. -.-. . / -.. .- -.-- .-.-.- .-.-.- .-.-.- . .-.. ... . .-- .... . .-. . .-.-.-')
     else:

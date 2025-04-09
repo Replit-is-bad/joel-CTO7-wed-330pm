@@ -68,6 +68,7 @@ def getcurrentplayer(player):
         return 'O'
     else:
         return 'X'
+    
 
 #Main game loop
 board = initboard()

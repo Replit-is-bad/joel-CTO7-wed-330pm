@@ -25,7 +25,7 @@ def printboard(argboard):
     #empty space
     count = 1
     #retriving the board row
-    for row in board:
+    for row in argboard:
         for col in row:
             print(f'| {count} ', end = '')
 

@@ -37,6 +37,8 @@ def printboard(board):
 board = initboard()
 printboard(board)
 
+
+
 while True:
     pMove = input('Enter a number from 1-9: ')
 

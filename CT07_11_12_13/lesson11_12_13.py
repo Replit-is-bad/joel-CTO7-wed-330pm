@@ -92,6 +92,12 @@ def checkwin(argboard):
             return True
     return False
 
+def checktie(argboard):
+    for row in argboard:
+        for cell in row:
+            if cell ==' ':
+                
+
 #Main game loop
 board = initboard()
 cplayer =''

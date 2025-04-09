@@ -115,7 +115,8 @@ while True:
         printboard(board)
         break
     elif checktie(board):
-        print('its a tie')
+        print('its a tie????')
+        
 
 
 

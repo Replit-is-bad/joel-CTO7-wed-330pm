@@ -51,6 +51,8 @@ while True:
             #check if cell is empty
             if board[row][col] == " ":
                 board[row][col] ='X' 
+            else:
+                print(f)
         else:
             print('ERROR :.... .- ...- . / .- / -. .. -.-. . / -.. .- -.-- .-.-.- .-.-.- .-.-.- . .-.. ... . .-- .... . .-. . .-.-.-')
     else:

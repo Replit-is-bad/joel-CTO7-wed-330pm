@@ -73,7 +73,7 @@ def getcurrentplayer(player):
 
 #winner function
 def checkwin(argboard):
-    win = []
+    win = [argboard[0][]]
 
 
 #Main game loop

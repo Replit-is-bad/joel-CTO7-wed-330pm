@@ -37,7 +37,7 @@ def printboard(argboard):
                 print('-'*13)
             count += 1
 
-def get_player_move(argboard,):
+def get_player_move(argboard,cplayer):
 
     while True:
         
@@ -53,7 +53,7 @@ def get_player_move(argboard,):
 
                 #check if cell is empty
                 if argboard[row][col] == " ":
-                    argboard[row][col] ='X' 
+                    argboard[row][col] ='cplaer' 
                     break
                 else:
                     print(f'{pMove + 1 } is already eaten by : https://www.youtube.com/channel/UC63anZxfVGHUEmfBAf5w7pw')

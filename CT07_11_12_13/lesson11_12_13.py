@@ -28,7 +28,7 @@ def printboard(argboard):
     for row in argboard:
         for col in row:
             if argboard[row][col] == ' ':
-                print(f'| ')
+                print(f'| {argboard[row[col]]}')
             print(f'| {count} ', end = '')
 
             if count % 3 == 0: # helps to calculate new row

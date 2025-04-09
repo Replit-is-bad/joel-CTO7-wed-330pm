@@ -34,6 +34,7 @@ def printboard(board):
                 print('-'*13)
             count += 1
 
+#main 
 board = initboard()
 printboard(board)
 

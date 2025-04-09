@@ -34,7 +34,7 @@ def printboard(board):
                 print('-'*13)
             count += 1
 
-#main 
+#main game loop
 board = initboard()
 printboard(board)
 

@@ -48,7 +48,8 @@ while True:
             col = pMove % 3
             print(f"row = {row}, col{col}")
 
-            #check 
+            #check if cell is empty
+             
         else:
             print('ERROR :.... .- ...- . / .- / -. .. -.-. . / -.. .- -.-- .-.-.- .-.-.- .-.-.- . .-.. ... . .-- .... . .-. . .-.-.-')
     else:

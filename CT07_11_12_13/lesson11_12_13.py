@@ -27,7 +27,7 @@ def printboard(argboard):
     #retriving the board row
     for row in argboard:
         for col in row:
-            if argboard[row][col]:
+            if col]:
                 print(f'| {count}' , end=' ')
             else:
                 print(f'| {col} ', end = '')

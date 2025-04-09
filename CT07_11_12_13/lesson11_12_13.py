@@ -34,10 +34,6 @@ def printboard(board):
                 print('-'*13)
             count += 1
 
-#main game loop
-board = initboard()
-printboard(board)
-
 def get_player_move(argboard):
 
     while True:
@@ -63,3 +59,9 @@ def get_player_move(argboard):
         else:
             print('ERROR : ...  -  ..-  .--.  ..  -..')
     return argboard
+
+
+#main game loop
+board = initboard()
+printboard(board)
+

@@ -72,7 +72,7 @@ def getcurrentplayer(player):
 
 #Main game loop
 board = initboard()
-cr
+
 
 while True:
     printboard(board)

@@ -52,7 +52,7 @@ while True:
             if board[row][col] == " ":
                 board[row][col] ='X' 
             else:
-                print(f'{pMove + 1 } is already ')
+                print(f'{pMove + 1 } is already eaten by :')
         else:
             print('ERROR :.... .- ...- . / .- / -. .. -.-. . / -.. .- -.-- .-.-.- .-.-.- .-.-.- . .-.. ... . .-- .... . .-. . .-.-.-')
     else:

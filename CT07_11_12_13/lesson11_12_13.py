@@ -75,6 +75,7 @@ board = initboard()
 cplayer =''
 
 while True:
+
     printboard(board)
     board = get_player_move(board)
 

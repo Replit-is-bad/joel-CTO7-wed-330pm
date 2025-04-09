@@ -37,26 +37,26 @@ def printboard(board):
 board = initboard()
 printboard(board)
 
+def get_player_move():
 
+    while True:
+        
+        pMove = input('Enter a number from 1-9: ')
 
-while True:
-    
-    pMove = input('Enter a number from 1-9: ')
+        if pMove.isdigit():
+            pMove = int(pMove)
+            if pMove >1 and pMove <= 9:
+                pMove = pMove -1
+                row = pMove // 3
+                col = pMove % 3
+                print(f"row = {row}, col{col}")
 
-    if pMove.isdigit():
-        pMove = int(pMove)
-        if pMove >1 and pMove <= 9:
-            pMove = pMove -1
-            row = pMove // 3
-            col = pMove % 3
-            print(f"row = {row}, col{col}")
-
-            #check if cell is empty
-            if board[row][col] == " ":
-                board[row][col] ='X' 
+                #check if cell is empty
+                if board[row][col] == " ":
+                    board[row][col] ='X' 
+                else:
+                    print(f'{pMove + 1 } is already eaten by : https://www.youtube.com/channel/UC63anZxfVGHUEmfBAf5w7pw')
             else:
-                print(f'{pMove + 1 } is already eaten by : https://www.youtube.com/channel/UC63anZxfVGHUEmfBAf5w7pw')
+                print('ERROR :.... .- ...- . / .- / -. .. -.-. . / -.. .- -.-- .-.-.- .-.-.- .-.-.- . .-.. ... . .-- .... . .-. . .-.-.-')
         else:
-            print('ERROR :.... .- ...- . / .- / -. .. -.-. . / -.. .- -.-- .-.-.- .-.-.- .-.-.- . .-.. ... . .-- .... . .-. . .-.-.-')
-    else:
-        print('ERROR : ...  -  ..-  .--.  ..  -..')
+            print('ERROR : ...  -  ..-  .--.  ..  -..')

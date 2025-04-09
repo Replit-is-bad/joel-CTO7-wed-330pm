@@ -62,12 +62,16 @@ def get_player_move(argboard,cplayer):
         else:
             print('ERROR : ...  -  ..-  .--.  ..  -..')
     return argboard
+
 #find the player turn
 def getcurrentplayer(player):
     if player == 'X':
         return 'O'
     else:
         return 'X'
+    
+
+
     
 
 #Main game loop

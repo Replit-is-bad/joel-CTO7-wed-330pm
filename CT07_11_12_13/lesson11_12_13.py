@@ -85,8 +85,11 @@ def checkwin(argboard):
     [argboard[0][0],argboard[1][1], argboard[2][2]]# digonal 1
     [argboard[0][2],argboard[1][1], argboard[2][0]]# digonal 2
     ]
-    
 
+
+    for condition in win:
+        if condition[0] == condition[1] == condition[2] and condition[0] !='':
+            
 #Main game loop
 board = initboard()
 cplayer =''

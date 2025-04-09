@@ -37,7 +37,7 @@ def printboard(board):
 board = initboard()
 printboard(board)
 
-def get_player_move():
+def get_player_move(argboard):
 
     while True:
         

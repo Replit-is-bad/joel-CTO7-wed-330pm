@@ -71,8 +71,10 @@ def getcurrentplayer(player):
         return 'X'
     
 
-
+#winner function
+def checkwin(argboard):
     
+
 
 #Main game loop
 board = initboard()

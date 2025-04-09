@@ -52,7 +52,7 @@ while True:
             if board[row][col] == " ":
                 board[row][col] ='X' 
             else:
-                print(f'{movw}')
+                print(f'{pMove +}')
         else:
             print('ERROR :.... .- ...- . / .- / -. .. -.-. . / -.. .- -.-- .-.-.- .-.-.- .-.-.- . .-.. ... . .-- .... . .-. . .-.-.-')
     else:

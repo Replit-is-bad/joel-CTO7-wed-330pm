@@ -41,7 +41,7 @@ def get_player_move(argboard,cplayer):
 
     while True:
         
-        pMove = input(f'Player {cplayer},enter a number from 1-9: ')
+        pMove = input(f'Player {cplayer}, enter a number from 1-9: ')
 
         if pMove.isdigit():
             pMove = int(pMove)

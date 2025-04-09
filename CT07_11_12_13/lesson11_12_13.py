@@ -77,8 +77,8 @@ cplayer =''
 while True:
     printboard(board)
 
-    
-    
+    cplayer
+
     board = get_player_move(board)
 
 

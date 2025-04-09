@@ -49,7 +49,8 @@ while True:
             print(f"row = {row}, col{col}")
 
             #check if cell is empty
-             
+            if board[row][col] == " ":
+                board[row][] 
         else:
             print('ERROR :.... .- ...- . / .- / -. .. -.-. . / -.. .- -.-- .-.-.- .-.-.- .-.-.- . .-.. ... . .-- .... . .-. . .-.-.-')
     else:

@@ -74,7 +74,7 @@ def getcurrentplayer(player):
 #winner function
 def checkwin(argboard):
     win = [
-[argboard[0][0],argboard[0][1], argboard[0][2]]# row 1
+    [argboard[0][0],argboard[0][1], argboard[0][2]]# row 1
 [argboard[1][0],argboard[1][1], argboard[1][2]]# row 2
 [argboard[2][0],argboard[2][1], argboard[2][2]]# row 3
 

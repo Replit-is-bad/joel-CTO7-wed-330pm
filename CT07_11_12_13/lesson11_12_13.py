@@ -52,7 +52,7 @@ while True:
             if board[row][col] == " ":
                 board[row][col] ='X' 
             else:
-                print(f'{pMove + 1 } is already eaten by :')
+                print(f'{pMove + 1 } is already eaten by : https://www.youtube.com/channel/UC63anZxfVGHUEmfBAf5w7pw')
         else:
             print('ERROR :.... .- ...- . / .- / -. .. -.-. . / -.. .- -.-- .-.-.- .-.-.- .-.-.- . .-.. ... . .-- .... . .-. . .-.-.-')
     else:

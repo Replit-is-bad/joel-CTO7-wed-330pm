@@ -63,6 +63,9 @@ def get_player_move(argboard):
 
 #Main game loop
 board = initboard()
-printboard(board)
+
+while True:
+    printboard(board)
+    
 
 

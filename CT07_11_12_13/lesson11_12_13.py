@@ -78,7 +78,7 @@ def checkwin(argboard):
 [argboard[1][0],argboard[1][1], argboard[1][2]]#row 2
 [argboard[2][0],argboard[2][1], argboard[2][2]]#row 3
 
-[argboard[0][0],argboard[0][1], argboard[0][2]]
+[argboard[1][0],argboard[1][0], argboard[2][0]]
 ]
 
 

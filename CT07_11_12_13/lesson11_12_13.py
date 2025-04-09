@@ -79,7 +79,7 @@ while True:
 
     cplayer
 
-    board = get_player_move(board)
+    board = get_player_move(board, cplayer)
 
 
 

@@ -52,8 +52,8 @@ def get_player_move(argboard):
                 print(f"row = {row}, col{col}")
 
                 #check if cell is empty
-                if board[row][col] == " ":
-                    argboardboard[row][col] ='X' 
+                if argboard[row][col] == " ":
+                    argboard[row][col] ='X' 
                 else:
                     print(f'{pMove + 1 } is already eaten by : https://www.youtube.com/channel/UC63anZxfVGHUEmfBAf5w7pw')
             else:

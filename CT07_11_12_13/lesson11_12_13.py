@@ -50,7 +50,7 @@ while True:
 
             #check if cell is empty
             if board[row][col] == " ":
-                board[row][] 
+                board[row][col] ='X' 
         else:
             print('ERROR :.... .- ...- . / .- / -. .. -.-. . / -.. .- -.-- .-.-.- .-.-.- .-.-.- . .-.. ... . .-- .... . .-. . .-.-.-')
     else:

@@ -130,7 +130,7 @@ def get_bot_move(board, currplayer):
 
     if board [1][1] ==" ":
         board [1][1] = currplayer
-        retur
+        return board
 
 #Main game loop
 board = initboard()

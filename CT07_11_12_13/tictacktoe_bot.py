@@ -136,7 +136,7 @@ def get_bot_move(board, currplayer):
     random.shuffle(conners)
 
     for i , j in conners:
-        if board [i,j]== " ":
+        if board [i][j]== " ":
             board[i][j] = currplayer
 
 #Main game loop

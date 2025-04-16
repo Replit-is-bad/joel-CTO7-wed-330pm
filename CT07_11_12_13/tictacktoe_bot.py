@@ -106,6 +106,7 @@ def checktie(argboard):
 # 4. If a corner is empty == take a corner.
 # 5. Else == take any available space.
 def get_bot_move(board, currplayer):
+    
     for i in range(3):
         for j in range(3):
             if board[i][j]== " ":

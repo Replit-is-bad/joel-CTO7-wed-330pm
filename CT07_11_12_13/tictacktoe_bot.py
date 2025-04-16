@@ -114,7 +114,7 @@ def get_bot_move(board, currplayer):
                 if checkwin(board):
                     return board 
                 else:
-                    board[i][j] = 
+                    board[i][j] = " "
 
 
 #Main game loop

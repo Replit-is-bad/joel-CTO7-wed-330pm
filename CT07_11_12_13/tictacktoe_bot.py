@@ -132,7 +132,7 @@ def get_bot_move(board, currplayer):
         board [1][1] = currplayer
         return board
     
-    conners = [[0,0][]]
+    conners = [[0,0][0,2][20]]
 
 #Main game loop
 board = initboard()

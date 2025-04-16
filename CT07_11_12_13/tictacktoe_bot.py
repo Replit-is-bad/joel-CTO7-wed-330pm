@@ -107,7 +107,7 @@ def checktie(argboard):
 # 5. Else == take any available space.
 def get_bot_move(board, currplayer):
     print('Bot is rizzing up the board....')
-    time.sleep
+    time.sleep(1)
     for i in range(3):
         for j in range(3):
             if board[i][j]== " ":

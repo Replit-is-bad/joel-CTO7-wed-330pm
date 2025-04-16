@@ -131,6 +131,8 @@ def get_bot_move(board, currplayer):
     if board [1][1] ==" ":
         board [1][1] = currplayer
         return board
+    
+    conner
 
 #Main game loop
 board = initboard()

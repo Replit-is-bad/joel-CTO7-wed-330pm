@@ -106,6 +106,7 @@ def checktie(argboard):
 # 4. If a corner is empty == take a corner.
 # 5. Else == take any available space.
 
+
 #Main game loop
 board = initboard()
 cplayer =''

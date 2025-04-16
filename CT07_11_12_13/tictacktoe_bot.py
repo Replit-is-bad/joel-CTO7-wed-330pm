@@ -109,7 +109,9 @@ def get_bot_move(board, currplayer):
     for i in range(3):
         for j in range(3):
             if board[i][j]== " ":
-                board[i][j]=
+                board[i][j]= currplayer
+
+                
 
 
 #Main game loop

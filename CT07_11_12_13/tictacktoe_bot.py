@@ -108,6 +108,7 @@ while True:
 
     cplayer = getcurrentplayer(cplayer)
 
+    
     board = get_player_move(board, cplayer)
 
     if checkwin(board):

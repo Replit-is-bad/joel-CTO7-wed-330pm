@@ -123,7 +123,7 @@ def get_bot_move(board, currplayer):
                 board[i][j]= opponent
                 
                 if checkwin(board):
-                    board[i][j] = c
+                    board[i][j] = currplayer
 
 
 #Main game loop

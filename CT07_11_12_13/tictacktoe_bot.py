@@ -1,5 +1,5 @@
 import random
-import tim
+import time
 
 # def diceGuess(par1):
 #     rNum1 = random.randint(1,6)

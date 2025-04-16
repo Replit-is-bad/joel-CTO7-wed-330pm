@@ -112,7 +112,7 @@ while True:
     if cplayer == "X":
         board = get_player_move(board, cplayer)
     else:
-        board = get_bot
+        board = get_bot_move(board)
     if checkwin(board):
         print(f'Player {cplayer} wins!!')
         printboard(board)

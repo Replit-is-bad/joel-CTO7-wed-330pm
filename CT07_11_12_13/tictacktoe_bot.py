@@ -108,7 +108,7 @@ while True:
 
     cplayer = getcurrentplayer(cplayer)
 
-    #
+    #check if
 
     board = get_player_move(board, cplayer)
 

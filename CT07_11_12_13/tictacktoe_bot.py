@@ -99,6 +99,13 @@ def checktie(argboard):
                 return False
     return True
 
+
+# 1. Check if AI can win in the next move == take that move.
+# 2. Check if player can win in next move == block it.
+# 3. If center is empty == take center.
+# 4. If a corner is empty == take a corner.
+# 5. Else == take any available space.
+
 #Main game loop
 board = initboard()
 cplayer =''

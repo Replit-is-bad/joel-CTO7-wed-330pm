@@ -142,10 +142,7 @@ def get_bot_move(board, currplayer):
             board[i][j] = currplayer
             return board
     
-    for i , j in conners:
-        if board [i][j]== " ":
-            board[i][j] = currplayer
-            return board
+    
 
 #Main game loop
 board = initboard()

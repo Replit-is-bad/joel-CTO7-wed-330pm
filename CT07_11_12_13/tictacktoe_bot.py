@@ -117,7 +117,10 @@ def get_bot_move(board, currplayer):
                     board[i][j] = " "
     
     opponent = "X"
-    
+    for i in range(3):
+        for j in range(3):
+             if board[i][j]== " ":
+                board[i][j]= opponent
 
 
 #Main game loop

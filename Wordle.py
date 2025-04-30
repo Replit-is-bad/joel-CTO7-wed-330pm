@@ -66,4 +66,4 @@ for chance in range(1,7):
 
 else:
     print('')
-    print(f'')
+    print(f'THe actual word was {wor}')

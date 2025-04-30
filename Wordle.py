@@ -59,5 +59,5 @@ for i in range(len(wordle)):
     else:
         display_check = display_check + '#'
 
-prin
+print(display_check)
 

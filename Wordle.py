@@ -15,6 +15,11 @@ In this assignment, your task is to create a program that works like wordle. You
 '''
 import random
 
+
+
+
+
+
 with open('FiveLetterWords.csv','r') as fileobj :
     
     # reads and stores it into a string
@@ -26,5 +31,5 @@ with open('FiveLetterWords.csv','r') as fileobj :
     wordlist = contents.split(",")
     
     wordle = random.choice(wordlist)
-    
+
 

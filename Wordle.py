@@ -43,23 +43,22 @@ with open('FiveLetterWords.csv','r') as fileobj :
     
     wordle = random.choice(wordlist).upper()
 
+for chance in range(1,7):
+    checkguess = getword(wordlist)
+    print(checkguess)
+    display_check ='' 
 
-checkguess = getword(wordlist)
+    for i in range(len(wordle)):
+        if checkguess[i] == wordle[i]:
 
-print(checkguess)
-display_check ='' 
+            display_check = display_check + checkguess[i]
 
-for i in range(len(wordle)):
-    if checkguess[i] == wordle[i]:
+        elif checkguess[i]in wordle:
+            display_check = display_check + '?'
+            
+        else:
+            display_check = display_check + '#'
 
-        display_check = display_check + checkguess[i]
-
-    elif checkguess[i]in wordle:
-        display_check = display_check + '?'
-        
-    else:
-        display_check = display_check + '#'
-
-print(f'You guess : {checkguess}')
-print(f'Result    : {display_check}')
+    print(f'You guess : {checkguess}')
+    print(f'Result    : {display_check}')
 

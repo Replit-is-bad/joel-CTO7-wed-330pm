@@ -46,3 +46,6 @@ checkguess = getword(wordlist)
 print(checkguess)
 
 
+displ
+
+

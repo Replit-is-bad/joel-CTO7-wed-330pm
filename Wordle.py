@@ -19,7 +19,7 @@ def getword(wordlist):
 
     while True:
         guess = input('Guess the 5 letter word !')
-        if len(guess) == 5
+        if len(guess) == 5:
             if guess.isalpha():
                 if guess in wordlist:
                     pass

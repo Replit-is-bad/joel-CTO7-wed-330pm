@@ -13,6 +13,7 @@ In this assignment, your task is to create a program that works like wordle. You
 
 4. You can use the console output to print out the statements
 '''
+import random
 
 with open('FiveLetterWords.csv','r') as fileobj :
     

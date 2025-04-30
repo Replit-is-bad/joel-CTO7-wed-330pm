@@ -50,7 +50,7 @@ display_check =''
 
 for i in range(len(wordle)):
     if checkguess[i] == wordle[i]:
-        
+
         display_check = display_check + checkguess[i]
 
     elif checkguess[i]in wordle:
@@ -58,4 +58,6 @@ for i in range(len(wordle)):
         
     else:
         display_check = display_check + '#'
+
+prin
 

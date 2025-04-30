@@ -42,7 +42,7 @@ with open('FiveLetterWords.csv','r') as fileobj :
     
     wordle = random.choice(wordlist)
 
-checkguess = getword(wordlist)
+checkguess = getword(wordlist).upper()
 print(checkguess)
 
 

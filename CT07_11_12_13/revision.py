@@ -185,5 +185,11 @@ average = sumnum / 24
 print(f"The average of the day is {round(average,2)}")
 
 
+word = 'hi'
+
+if word == word[::-1]:
+    print('gi')
+
+
 suits = ["♣ CLUB", "♦ DIAMOND","❤ HEART","♠ SPADE"]
 ranks = ['2','3','4','5','6','7','8','9','JACK','QUEEN','KING','ACE']

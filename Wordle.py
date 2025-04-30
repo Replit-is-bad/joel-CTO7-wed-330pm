@@ -22,7 +22,7 @@ def getword(wordlist):
         if len(guess) == 5:
             if guess.isalpha():
                 if guess in wordlist:
-                    return guess
+                    return guess.upper()
                     pass
                 else:
                     print('Yo momma is so fat when she got on the scale it said, "I need your weight not your phone number."')

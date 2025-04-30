@@ -8,4 +8,4 @@ with open('FiveLetterWords.csv','r') as fileobj :
     print(contents)
 
     # splilt words into items in a list
-    
+    wordlist 

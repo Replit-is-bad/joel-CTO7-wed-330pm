@@ -15,10 +15,20 @@ In this assignment, your task is to create a program that works like wordle. You
 '''
 import random
 
-def getword():
+def getword(wordlist):
 
     while True:
-        guess = input('Guess the 5 letter word ')
+        guess = input('Guess the 5 letter word !')
+        if len(guess) == 5
+            if guess.isalpha():
+                if guess in wordlist:
+                    pass
+                else:
+                    print('Yo momma is so fat when she got on the scale it said, "I need your weight not your phone number."')
+            else:
+                print('Yo mamma is so ugly when she tried to join an ugly contest they said, "Sorry, no professionals."')
+        else:
+            print('Yo momma so fat and old when God said, Let there be light, he asked your mother to move out of the way.')
 
 with open('FiveLetterWords.csv','r') as fileobj :
     
@@ -31,5 +41,8 @@ with open('FiveLetterWords.csv','r') as fileobj :
     wordlist = contents.split(",")
     
     wordle = random.choice(wordlist)
+
+checkguess = getword(wordlist)
+print(checkguess)
 
 

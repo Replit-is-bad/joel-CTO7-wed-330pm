@@ -60,5 +60,6 @@ for i in range(len(wordle)):
     else:
         display_check = display_check + '#'
 
+
 print(display_check)
 

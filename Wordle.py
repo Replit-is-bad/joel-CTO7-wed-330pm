@@ -18,7 +18,7 @@ import random
 def getword():
 
     while True:
-        guess
+        guess = input('')
 
 with open('FiveLetterWords.csv','r') as fileobj :
     

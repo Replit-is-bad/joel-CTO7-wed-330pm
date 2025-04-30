@@ -15,10 +15,10 @@ In this assignment, your task is to create a program that works like wordle. You
 '''
 import random
 
+def getword():
 
-
-
-
+    while True:
+        guess
 
 with open('FiveLetterWords.csv','r') as fileobj :
     

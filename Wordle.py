@@ -42,9 +42,10 @@ with open('FiveLetterWords.csv','r') as fileobj :
     wordlist = contents.split(",")
     
     wordle = random.choice(wordlist).upper()
+print(checkguess)
 
 checkguess = getword(wordlist)
-print(checkguess)
+
 
 
 display_check ='' 

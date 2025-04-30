@@ -65,7 +65,7 @@ for chance in range(1,7):
     print(f'Result    : {display_check}')
 
     if checkguess == wordle:
-        print('Y')
+        print('You are right!')
 else:
     print('')
     print(f'THe actual word was {wordle}')

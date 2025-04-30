@@ -7,4 +7,5 @@ with open('FiveLetterWords.csv','r') as fileobj :
 
     print(contents)
 
-    # splilt
+    # splilt words into items in a list
+    

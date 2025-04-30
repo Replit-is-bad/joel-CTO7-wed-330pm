@@ -40,9 +40,9 @@ with open('FiveLetterWords.csv','r') as fileobj :
     # splilt words into items in a list
     wordlist = contents.split(",")
     
-    wordle = random.choice(wordlist)
+    wordle = random.choice(wordlist).upper()
 
-checkguess = getword(wordlist).upper()
+checkguess = getword(wordlist)
 print(checkguess)
 
 

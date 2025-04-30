@@ -60,6 +60,6 @@ for i in range(len(wordle)):
     else:
         display_check = display_check + '#'
 
-print(f'')
+print(f'You guess : {checkguess}')
 print(display_check)
 

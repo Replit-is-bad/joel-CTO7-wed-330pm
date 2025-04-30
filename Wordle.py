@@ -61,5 +61,5 @@ for i in range(len(wordle)):
         display_check = display_check + '#'
 
 print(f'You guess : {checkguess}')
-print(f'display_check')
+print(f'Result{display_check}')
 

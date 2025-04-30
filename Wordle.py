@@ -65,4 +65,5 @@ for chance in range(1,7):
     print(f'Result    : {display_check}')
 
 else:
-    print
+    print('')
+    

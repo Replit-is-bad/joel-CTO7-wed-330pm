@@ -46,6 +46,7 @@ checkguess = getword(wordlist)
 print(checkguess)
 
 
-display_check
+display_check ='' 
+
 
 

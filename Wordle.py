@@ -1,5 +1,7 @@
 
 
 with open('FiveLetterWords.csv','r') as fileobj :
-    #reads
+    
+    # reads and stores it into a string
     contents = fileobj.read()
+    

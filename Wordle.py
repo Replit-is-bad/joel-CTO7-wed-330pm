@@ -59,8 +59,10 @@ for chance in range(1,7):
         else:
             display_check = display_check + '#'
 
-    print
+    print('')
     print(f'Attempt # : {chance}')
     print(f'You guess : {checkguess}')
     print(f'Result    : {display_check}')
 
+else:
+    print

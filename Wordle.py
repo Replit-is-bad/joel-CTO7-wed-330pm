@@ -25,4 +25,4 @@ with open('FiveLetterWords.csv','r') as fileobj :
     # splilt words into items in a list
     wordlist = contents.split(",")
     
-    wordle
+    wordle = random.choice()

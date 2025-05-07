@@ -46,9 +46,9 @@ avge = round(totalnum / count)
 for i in daily_sales:
     numc += 1
     if i == highests:
-        counth = highests
+        counth = numc
 
-print(f'{counth} August has highest sales of ${highests}')
+print(f'{numc} August has highest sales of ${highests}')
 print(f'August has lowest sales of ${lowests}')
 print(f'Average daliy sales for August is ${avge}')
 

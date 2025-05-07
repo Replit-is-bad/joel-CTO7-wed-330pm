@@ -28,10 +28,13 @@ daily_sales = [1205, 986, 1354, 10535, 15741, 11200, 800,
 
 #highest number
 highests = max(daily_sales)
+
 #lowest number
 lowests = min(daily_sales)
+
 #amount of item in list
 count = len(daily_sales)
+
 #sum of all items
 totalnum = sum(daily_sales)
 

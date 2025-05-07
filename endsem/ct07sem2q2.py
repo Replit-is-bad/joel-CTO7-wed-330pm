@@ -19,7 +19,7 @@ def is_even(num):
         return True
     else:
         print(f'{num} is odd.')
-    
+    return False
     
     # return True or False
 

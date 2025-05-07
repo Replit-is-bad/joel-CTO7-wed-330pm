@@ -39,7 +39,7 @@ count = len(daily_sales)
 totalnum = sum(daily_sales)
 
 #average
-avge = roundtotalnum / count
+avge = round(totalnum / count)
 
 print(f'Average daliy sales for August is ${avge}')
 

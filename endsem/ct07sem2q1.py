@@ -32,7 +32,7 @@ count = len(daily_sales)
 totalnum = sum(daily_sales)
 
 
-print(totalnum)
+
 
 
 

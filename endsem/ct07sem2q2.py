@@ -14,7 +14,8 @@
 
 ##### Task 1: COMPLETE THIS FUNCTION TO CHECK ODD/ EVEN
 def is_even(num):
-
+    if num % 2 == 0:
+        print9
     pass # remove this when you code. Ask Code Mentor if unsure.
     # Write your code to check if the number is even
     

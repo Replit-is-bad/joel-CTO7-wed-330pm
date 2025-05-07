@@ -43,7 +43,11 @@ totalnum = sum(daily_sales)
 #average
 avge = round(totalnum / count)
 
-print(f'August has highest sales of ${highests}')
+for i in daily_sales:
+    if i == highests:
+        counth = len(highests)
+
+print(f'{counth} August has highest sales of ${highests}')
 print(f'August has lowest sales of ${lowests}')
 print(f'Average daliy sales for August is ${avge}')
 

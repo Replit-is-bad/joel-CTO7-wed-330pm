@@ -27,7 +27,8 @@ daily_sales = [1205, 986, 1354, 10535, 15741, 11200, 800,
 # Write your code here.
 
 highests = max(daily_sales)
-lowests = min()
+
+lowests = min(daily_sales)
 
 
 

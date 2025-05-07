@@ -17,7 +17,7 @@ def is_even(num):
     if num % 2 == 0:
         print(f'{num} is even.')
     else:
-        print(f)
+        print(f'{num} is odd.')
     pass # remove this when you code. Ask Code Mentor if unsure.
     # Write your code to check if the number is even
     

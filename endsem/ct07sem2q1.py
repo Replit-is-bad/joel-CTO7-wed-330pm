@@ -26,8 +26,9 @@ daily_sales = [1205, 986, 1354, 10535, 15741, 11200, 800,
                8903, 1008, 1530]
 # Write your code here.
 
-
+#highest number
 highests = max(daily_sales)
+#lowest number
 lowests = min(daily_sales)
 count = len(daily_sales)
 totalnum = sum(daily_sales)

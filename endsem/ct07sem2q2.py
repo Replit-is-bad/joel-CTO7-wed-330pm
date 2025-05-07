@@ -13,8 +13,7 @@
 
 
 ##### Task 1: COMPLETE THIS FUNCTION TO CHECK ODD/ EVEN
-def is_even(num):
-    
+def is_even(num):    
     if num % 2 == 0:
         return True
     else:        

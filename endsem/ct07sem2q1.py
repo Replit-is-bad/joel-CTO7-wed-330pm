@@ -29,7 +29,10 @@ daily_sales = [1205, 986, 1354, 10535, 15741, 11200, 800,
 highests = max(daily_sales)
 lowests = min(daily_sales)
 count = len(daily_sales)
-totalnum = sum9
+totalnum = sum(daily_sales)
+
+
+
 
 
 

@@ -41,7 +41,7 @@ totalnum = sum(daily_sales)
 #average
 avge = totalnum / count
 
-print(round(avge[2]))
+print(round(avge))
 
 
 

@@ -28,7 +28,7 @@ daily_sales = [1205, 986, 1354, 10535, 15741, 11200, 800,
 
 numL = len()
 #highest number
-highests = len(max(daily_sales))
+highests = max(daily_sales)
 
 #lowest number
 lowests = min(daily_sales)

@@ -44,6 +44,7 @@ totalnum = sum(daily_sales)
 avge = round(totalnum / count)
 
 for i in daily_sales:
+    co
     if i == highests:
         counth = highests
 

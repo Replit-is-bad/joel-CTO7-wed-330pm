@@ -16,10 +16,8 @@
 def is_even(num):
     
     if num % 2 == 0:
-        print(f'{num} is even.')
         return True
-    else:
-        
+    else:        
         return False
     
 

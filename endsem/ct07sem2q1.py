@@ -41,7 +41,7 @@ totalnum = sum(daily_sales)
 #average
 avge = totalnum / count
 
-print(f'Average daliy sales for Aug')
+print(f'Average daliy sales for August is ${}')
 
 
 

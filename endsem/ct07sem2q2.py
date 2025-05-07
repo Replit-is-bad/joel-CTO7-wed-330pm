@@ -40,5 +40,5 @@ for i in list1:
     if is_even == True:
         print(f'{i} is even.')
     else:
-        
+        print(f'{}')
     

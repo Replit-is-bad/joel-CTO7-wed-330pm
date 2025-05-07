@@ -45,7 +45,7 @@ avge = round(totalnum / count)
 
 for i in daily_sales:
     if i == highests:
-        counth = len(highests)
+        counth = highests
 
 print(f'{counth} August has highest sales of ${highests}')
 print(f'August has lowest sales of ${lowests}')

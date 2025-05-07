@@ -36,7 +36,7 @@ list1 = [2944, 5490, 2357, 2619, 1177, 451, 8299, 2533, 4682, 6040,
 ###### Task 2: COMPLETE THE FOR LOOP TO CALL is_even() here.
 for i in list1:
     is_even(i)
-    if is_even == True:
+    if is_even(i) == True:
         print(f'{i} is even.')
     else:
         print(f'{i} is odd.')

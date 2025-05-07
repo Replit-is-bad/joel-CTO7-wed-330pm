@@ -49,12 +49,12 @@ for i in daily_sales:
         counth = numc
 
 for i in daily_sales:
-    numc += 1
+    numcc += 1
     if i == lowests:
-        countL = numc
+        countL = numcc
 
 print(f'{counth} August has highest sales of ${highests}')
-print(f'August has lowest sales of ${lowests}')
+print(f'{}August has lowest sales of ${lowests}')
 print(f'Average daliy sales for August is ${avge}')
 
 

@@ -38,6 +38,7 @@ count = len(daily_sales)
 #sum of all items
 totalnum = sum(daily_sales)
 
+#average
 
 
 

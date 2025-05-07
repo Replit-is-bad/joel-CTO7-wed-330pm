@@ -38,5 +38,5 @@ list1 = [2944, 5490, 2357, 2619, 1177, 451, 8299, 2533, 4682, 6040,
 for i in list1:
     is_even(i)
     if is_even == True:
-        print()
+        print(f'{i }')
     

@@ -41,7 +41,7 @@ count = len(daily_sales)
 totalnum = sum(daily_sales)
 
 #average
-avge = round(totalnum / count)
+avge = round(totalnum / count,2)
 
 for i in daily_sales:
     numc += 1

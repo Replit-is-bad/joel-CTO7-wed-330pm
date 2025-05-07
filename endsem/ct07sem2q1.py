@@ -41,6 +41,8 @@ totalnum = sum(daily_sales)
 #average
 avge = totalnum / count
 
+print(a)
+
 
 
 

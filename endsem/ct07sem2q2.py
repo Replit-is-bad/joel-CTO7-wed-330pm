@@ -19,8 +19,8 @@ def is_even(num):
         print(f'{num} is even.')
         return True
     else:
-        print(f'{num} is odd.')
-    return False
+        
+        return False
     
 
 

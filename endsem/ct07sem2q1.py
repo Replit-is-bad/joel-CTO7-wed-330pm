@@ -39,7 +39,7 @@ count = len(daily_sales)
 totalnum = sum(daily_sales)
 
 #average
-
+avge = totalnum
 
 
 

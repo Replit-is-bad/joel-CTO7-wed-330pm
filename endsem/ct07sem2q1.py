@@ -41,7 +41,7 @@ totalnum = sum(daily_sales)
 #average
 avge = round(totalnum / count)
 
-pring
+print(f'')
 print(f'August has lowest sales of ${lowests}')
 print(f'Average daliy sales for August is ${avge}')
 

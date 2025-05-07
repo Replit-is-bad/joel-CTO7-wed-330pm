@@ -30,7 +30,7 @@ highests = max(daily_sales)
 lowests = min(daily_sales)
 count = len(daily_sales)
 
-print(count)
+
 
 
 

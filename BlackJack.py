@@ -44,6 +44,7 @@ def show_hand(hand,playtype):
         print('@' * 15)
 
     elif playtype == 'banker_hide':
+        pei
         print(f'{hand[0][1]} {hand[0][0]}')
 
 show_hand(player_hand, 'player_show')

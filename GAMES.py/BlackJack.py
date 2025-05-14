@@ -113,7 +113,7 @@ while True:
                 banker_hand.append(deck.pop())
 
             show_hand(banker_hand, 'banker_show')
-            show_hand(player)
+            show_hand(player_hand, "")
             if calculate(banker_hand) > 21:
                 print(' BANKER JI BA BOOM !')
                 

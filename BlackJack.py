@@ -84,4 +84,4 @@ while True:
         print('YOU WIN ! BLACK JACK !')
         break
     else:
-        action = in
+        action = inpuit

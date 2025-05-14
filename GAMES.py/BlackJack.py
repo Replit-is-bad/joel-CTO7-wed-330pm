@@ -115,10 +115,10 @@ while True:
             show_hand(banker_hand, 'banker_show')
             show_hand(player_hand, 'player_show')
             print()
-            
+
             if calculate(banker_hand) > 21:
                 print(' BANKER JI BA BOOM !')
-                
+                show_hand(banker_hand, 'banker_show')
                 
             else:
                 # check wining conditions

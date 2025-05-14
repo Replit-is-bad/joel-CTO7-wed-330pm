@@ -89,4 +89,4 @@ while True:
             player_hand.append(deck.pop())
 
 
-        #
+        # check if 

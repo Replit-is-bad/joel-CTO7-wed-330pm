@@ -16,6 +16,8 @@ deck = []
 #Player hand
 player_hand = []
 
+#the bankers hand
+
 
 # to build the deck
 for suit in suits:

@@ -39,7 +39,10 @@ def calculate(hand):
     for card in hand:
         cardpoint = values[card[1]]
         points += cardpoint
-    print()
+    retur
+
+
+
 # Function to display the hand
 # params : hand, typeofhand (banker_hide, player_show, banker_show)
 def show_hand(hand,playtype):

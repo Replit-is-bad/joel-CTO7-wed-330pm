@@ -40,7 +40,7 @@ def show_hand(hand,playtype):
         for card in hand:
             print(card)
 
-show
+show_hand(player_hand)
 
 # print(banker_hand)
 # print(player_hand)

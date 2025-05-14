@@ -87,4 +87,6 @@ while True:
         action = input(" 1 - hit , 2 - check : ")
         if action == "1":
             player_hand.append(deck.pop())
-            
+
+
+        #

@@ -38,8 +38,9 @@ def show_hand(hand,playtype):
     if playtype == "player_show":
         # show the player's hand
         for card in hand:
+            print()
             print(f'{card[1]} {card[0]}')
-            
+
     elif playtype == 'banker_hide':
         print(f'{hand[0][1]} {hand[0][0]}')
 

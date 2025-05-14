@@ -89,4 +89,5 @@ while True:
             player_hand.append(deck.pop())
 
 
-        # check if 
+        # check if player bust or win
+        

@@ -1,5 +1,6 @@
 import random
 
+
 suits = ["♣ CLUB", "♦ DIAMOND","❤ HEART","♠ SPADE"]
 ranks = ['2','3','4','5','6','7','8','9','JACK','QUEEN','KING','ACE']
 
@@ -96,3 +97,4 @@ while True:
             break
         elif action == "2":
             print('$$$ BANKER IS THINKING $$$$')
+            time.sleep(1)

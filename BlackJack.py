@@ -33,5 +33,5 @@ player_hand = [deck.pop(),deck.pop()]
 banker_hand = [deck.pop(), deck.pop()]
 
 # Function to display the hand
-# params : hand, typeofhand (banker_hide)
+# params : hand, typeofhand (banker_hide, player_show)
 print(player_hand)

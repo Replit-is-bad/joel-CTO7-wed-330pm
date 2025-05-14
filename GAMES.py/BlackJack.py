@@ -73,6 +73,16 @@ def show_hand(hand,playtype):
         print(f' {hand[0][1]} {hand[0][0]}')
         print('? ? ?' * 4)
         print('$' * 20)
+
+    if playtype == "banker_show":
+        # show the player's hand
+        print('@' * 20)
+        print('     BANKER SHOW HAND')
+        for card in hand:
+            print(f' {card[1]} {card[0]}')
+
+        print(f' BANKER HAS {calculate(hand)} POINTS.')
+        print('@' * 20)
     print()
 
 # main game loop
@@ -101,4 +111,18 @@ while True:
                 print('$$$ BANKER IS THINKING $$$$')
                 time.sleep(1)
                 banker_hand.append(deck.pop())
+
+            if calculate(banker_hand) > 21:
+                print(' BANKER JI BA BOOM !')
+                show_hand(banker_hand)
+                break
                 
+            else:
+                # check wining conditions
+                player_points = calculate(player_hand)
+                banker_points = calculate(banker_hand)
+
+                if player_points > banker_points:
+                    print(' PLAYER WINS')
+                else:
+                    print(' BANKER WINS')

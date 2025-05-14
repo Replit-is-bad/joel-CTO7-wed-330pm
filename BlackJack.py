@@ -61,7 +61,7 @@ def show_hand(hand,playtype):
         print('@' * 20)
         print('PLAYER HAND')
         for card in hand:
-            print(f'{card[1]} {card[0]}')
+            print(f' {card[1]} {card[0]}')
 
         print(f' YOU HAVE {calculate(hand)} POINTS.')
         print('@' * 20)
@@ -69,7 +69,7 @@ def show_hand(hand,playtype):
     elif playtype == 'banker_hide':
         print('$' * 20)
         print('BANKER HAND')
-        print(f'{hand[0][1]} {hand[0][0]}')
+        print(f' {hand[0][1]} {hand[0][0]}')
         print('?' * 20)
         print('$' * 20)
     print()

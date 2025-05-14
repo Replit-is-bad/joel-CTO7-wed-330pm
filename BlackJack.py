@@ -30,6 +30,6 @@ for i in range(10):
 
 # Draw two cards into the player and the bankers hand
 player_hand = [deck.pop(),deck.pop()]
-banker_hand = [deck.pop(), ]
+banker_hand = [deck.pop(), deck.pop()]
 
 print(player_hand)

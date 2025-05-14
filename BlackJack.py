@@ -84,6 +84,6 @@ while True:
         print('YOU WIN ! BLACK JACK !')
         break
     else:
-        action = input(" 1 - hit , 2 - check")
+        action = input(" 1 - hit , 2 - check : ")
         if action == "1":
             player_hand.append(deck.pop())

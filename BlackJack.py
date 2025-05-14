@@ -70,7 +70,7 @@ def show_hand(hand,playtype):
         print('$' * 20)
         print('     BANKER HAND')
         print(f' {hand[0][1]} {hand[0][0]}')
-        print('?' * 20)
+        print('? ' * 3)
         print('$' * 20)
     print()
 

@@ -45,7 +45,8 @@ def calculate(hand):
         if card[1] == 'ACE':
             count_aces += 1
 
-    
+    while points > 21 and count_aces > 0:
+        points
 
     return points
 

@@ -91,4 +91,4 @@ while True:
 
         # check if player bust or win
         if calculate(player_hand) > 21:
-            print()
+            print('YOU BUSTED')

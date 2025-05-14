@@ -37,6 +37,8 @@ banker_hand = [deck.pop(), deck.pop()]
 def show_hand(hand,playtype):
     if playtype == "player_show":
         # show the player's hand
+        print('?' * 15)
+        print('PLAYER HAND')
         for card in hand:
             print('?' * 15)
             print('PLAYER HAND')

@@ -72,9 +72,10 @@ def show_hand(hand,playtype):
         print('     BANKER HAND')
         print(f' {hand[0][1]} {hand[0][0]}')
         print('? ? ?' * 4)
+
         print('$' * 20)
 
-    if playtype == "banker_show":
+    elif playtype == "banker_show":
         # show the player's hand
         print('@' * 20)
         print('     BANKER SHOW HAND')
@@ -119,6 +120,7 @@ while True:
             if calculate(banker_hand) > 21:
                 print(' BANKER JI BA BOOM !')
                 show_hand(banker_hand, 'banker_show')
+                break
                 
             else:
                 # check wining conditions

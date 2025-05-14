@@ -32,4 +32,5 @@ for i in range(10):
 player_hand = [deck.pop(),deck.pop()]
 banker_hand = [deck.pop(), deck.pop()]
 
+# 
 print(player_hand)

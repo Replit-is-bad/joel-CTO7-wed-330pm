@@ -27,7 +27,7 @@ for i in range(10):
 
 print(deck)
 
-# Draw  card
+# Draw two 
 
 player_hand = [deck.pop(),deck.pop()]
 

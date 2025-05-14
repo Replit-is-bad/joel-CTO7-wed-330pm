@@ -16,6 +16,7 @@ deck = []
 #Player hand
 player_hand = []
 
+
 # to build the deck
 for suit in suits:
     for rank in ranks:

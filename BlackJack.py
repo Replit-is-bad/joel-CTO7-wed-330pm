@@ -39,7 +39,8 @@ def calculate(hand):
     for card in hand:
         cardpoint = values[card[1]]
         points += cardpoint
-    retur
+        
+    return points
 
 
 

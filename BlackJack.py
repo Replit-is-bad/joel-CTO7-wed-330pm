@@ -68,7 +68,7 @@ def show_hand(hand,playtype):
 
     elif playtype == 'banker_hide':
         print('$' * 20)
-        print('BANKER HAND')
+        print('     BANKER HAND')
         print(f' {hand[0][1]} {hand[0][0]}')
         print('?' * 20)
         print('$' * 20)

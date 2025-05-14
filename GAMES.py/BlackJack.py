@@ -96,5 +96,8 @@ while True:
             print('YOU LOST !')
             break
         elif action == "2":
-            print('$$$ BANKER IS THINKING $$$$')
-            time.sleep(1)
+
+            while calculate(banker_hand) <= 17:
+                print('$$$ BANKER IS THINKING $$$$')
+                time.sleep(1)
+                banker_hand

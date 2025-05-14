@@ -43,6 +43,6 @@ def show_hand(hand,playtype):
         print(f'{hand[0][0]} {hand[0][1]}')
 
 show_hand(player_hand, 'player_show')
-show_hand(banker_hand, 'player_show')
+show_hand(banker_hand, 'banker_show')
 # print(banker_hand)
 # print(player_hand)

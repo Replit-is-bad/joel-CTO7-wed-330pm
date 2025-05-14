@@ -78,3 +78,5 @@ def show_hand(hand,playtype):
 while True:
     show_hand(player_hand, 'player_show')
     show_hand(banker_hand, 'banker_hide')
+
+    #check

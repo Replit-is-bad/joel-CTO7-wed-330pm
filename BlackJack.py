@@ -45,9 +45,9 @@ def show_hand(hand,playtype):
 
     elif playtype == 'banker_hide':
         print('$' * 15)
-        print('BA')
+        print('BANKER HAND')
         print(f'{hand[0][1]} {hand[0][0]}')
-
+        print('?' * 15)
 show_hand(player_hand, 'player_show')
 show_hand(banker_hand, 'banker_hide')
 # print(banker_hand)

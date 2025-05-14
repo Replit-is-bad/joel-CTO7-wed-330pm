@@ -31,4 +31,4 @@ print(deck)
 
 player_hand = [deck.pop(),deck.pop()]
 
-print(card1)
+print(player_hand)

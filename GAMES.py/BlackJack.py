@@ -100,4 +100,5 @@ while True:
             while calculate(banker_hand) <= 17:
                 print('$$$ BANKER IS THINKING $$$$')
                 time.sleep(1)
-                banker_hand.append(deck.pop)
+                banker_hand.append(deck.pop())
+                

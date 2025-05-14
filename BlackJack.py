@@ -74,6 +74,7 @@ def show_hand(hand,playtype):
         print('$' * 20)
     print()
 
+#main game loop
 
 show_hand(player_hand, 'player_show')
 show_hand(banker_hand, 'banker_hide')

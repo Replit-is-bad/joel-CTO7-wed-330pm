@@ -77,5 +77,3 @@ def show_hand(hand,playtype):
 
 show_hand(player_hand, 'player_show')
 show_hand(banker_hand, 'banker_hide')
-# print(banker_hand)
-# print(player_hand)

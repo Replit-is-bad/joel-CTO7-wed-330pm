@@ -46,8 +46,8 @@ def calculate(hand):
             count_aces += 1
 
     while points > 21 and count_aces > 0:
-        points = points - 10
-        count_aces =count_aces 
+        points -= 10
+        count_aces -= 1 
 
     return points
 

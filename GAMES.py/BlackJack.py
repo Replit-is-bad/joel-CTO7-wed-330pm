@@ -125,3 +125,4 @@ while True:
                     print(' PLAYER WINS')
                 else:
                     print(' BANKER WINS')
+            break

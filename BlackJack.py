@@ -34,4 +34,9 @@ banker_hand = [deck.pop(), deck.pop()]
 
 # Function to display the hand
 # params : hand, typeofhand (banker_hide, player_show, banker_show)
+def show_hand(hand,playtype):
+    if playtype == "player_show":
+        # show the player's hand
+        for card in hand:
+            print
 print(player_hand)

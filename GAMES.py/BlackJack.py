@@ -112,6 +112,7 @@ while True:
                 time.sleep(1)
                 banker_hand.append(deck.pop())
 
+            show_hand
             if calculate(banker_hand) > 21:
                 print(' BANKER JI BA BOOM !')
                 

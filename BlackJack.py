@@ -10,7 +10,7 @@ ranks = ['2','3','4','5','6','7','8','9','JACK','QUEEN','KING','ACE']
 values = {'2':2, '3':3, '4':4, '5':5, '6':6, '7':7, '8':8, '9':9,
 'JACK':10, 'QUEEN':10,'KING':10, 'ACE':11}
 
-# deck of cards
+# Deck of cards
 deck = []
 
 # Player hand
@@ -32,5 +32,5 @@ for i in range(10):
 player_hand = [deck.pop(),deck.pop()]
 banker_hand = [deck.pop(), deck.pop()]
 
-# 
+# Func
 print(player_hand)

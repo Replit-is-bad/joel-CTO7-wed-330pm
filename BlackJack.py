@@ -16,6 +16,7 @@ deck = []
 #Player hand
 player_hand = []
 
+#
 for suit in suits:
     for rank in ranks:
         deck.append([suit,rank])

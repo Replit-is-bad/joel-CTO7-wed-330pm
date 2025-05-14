@@ -25,8 +25,6 @@ for suit in suits:
 for i in range(10):
     random.shuffle(deck)
 
-print(deck)
-
 # Draw two cards into the players hand
 
 player_hand = [deck.pop(),deck.pop()]

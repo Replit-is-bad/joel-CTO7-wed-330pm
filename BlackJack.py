@@ -40,5 +40,5 @@ def show_hand(hand,playtype):
         for card in hand:
             print(card)
 
-print(player_hand)
+print(banker_hand)
 print(player_hand)

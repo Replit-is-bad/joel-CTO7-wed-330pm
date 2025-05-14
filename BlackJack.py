@@ -34,7 +34,7 @@ banker_hand = [deck.pop(), deck.pop()]
 
 def calculate(hand):
     points = 0
-
+    countace
     # loop through cards in hand
     for card in hand:
         cardpoint = values[card[1]]

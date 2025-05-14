@@ -35,7 +35,10 @@ banker_hand = [deck.pop(), deck.pop()]
 def calculate(hand):
     points = 0
 
-    
+    # loop through cards in hand
+    for card in hand:
+        cardpoint = values[card[0]]
+
 # Function to display the hand
 # params : hand, typeofhand (banker_hide, player_show, banker_show)
 def show_hand(hand,playtype):

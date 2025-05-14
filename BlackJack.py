@@ -29,6 +29,6 @@ print(deck)
 
 # Draw a card
 card1 = deck.pop()
-player_hand = 
+player_hand = [deck.pop()]
 
 print(card1)

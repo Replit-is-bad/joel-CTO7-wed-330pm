@@ -83,3 +83,5 @@ while True:
     if calculate(player_hand) == 21:
         print('YOU WIN ! BLACK JACK !')
         break
+    else:
+        action = in

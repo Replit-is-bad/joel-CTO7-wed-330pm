@@ -94,3 +94,5 @@ while True:
             print('YOU BUSTED 21 !')
             print('YOU LOST !')
             break
+        elif action == "2":
+            print

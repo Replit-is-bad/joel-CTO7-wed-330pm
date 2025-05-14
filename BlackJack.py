@@ -32,6 +32,8 @@ for i in range(10):
 player_hand = [deck.pop(),deck.pop()]
 banker_hand = [deck.pop(), deck.pop()]
 
+def calculate(hand):
+    h
 # Function to display the hand
 # params : hand, typeofhand (banker_hide, player_show, banker_show)
 def show_hand(hand,playtype):
@@ -51,7 +53,7 @@ def show_hand(hand,playtype):
         print('$' * 15)
     print()
 
-    
+
 show_hand(player_hand, 'player_show')
 show_hand(banker_hand, 'banker_hide')
 # print(banker_hand)

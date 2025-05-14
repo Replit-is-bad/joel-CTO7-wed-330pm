@@ -38,7 +38,7 @@ def show_hand(hand,playtype):
     if playtype == "player_show":
         # show the player's hand
         for card in hand:
-            print
+            print(f'')
 
 show_hand(player_hand, 'player_show')
 

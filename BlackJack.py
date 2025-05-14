@@ -13,10 +13,10 @@ values = {'2':2, '3':3, '4':4, '5':5, '6':6, '7':7, '8':8, '9':9,
 # deck of cards
 deck = []
 
-#Player hand
+# Player hand
 player_hand = []
 
-#the bankers hand
+# The bankers hand
 banker_hand = []
 
 # to build the deck

@@ -28,7 +28,7 @@ for suit in suits:
 for i in range(10):
     random.shuffle(deck)
 
-# Draw two cards into the players hand
+# Draw two cards into the player and the bankers hand
 
 player_hand = [deck.pop(),deck.pop()]
 

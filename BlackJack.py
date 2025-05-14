@@ -29,7 +29,7 @@ for i in range(10):
     random.shuffle(deck)
 
 # Draw two cards into the player and the bankers hand
-
 player_hand = [deck.pop(),deck.pop()]
+banker_hand = []
 
 print(player_hand)

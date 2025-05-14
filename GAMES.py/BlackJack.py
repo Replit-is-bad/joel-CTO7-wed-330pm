@@ -95,4 +95,4 @@ while True:
             print('YOU LOST !')
             break
         elif action == "2":
-            print('$$$ BANKER IS THINKING ')
+            print('$$$ BANKER IS THINKING $$$$')
